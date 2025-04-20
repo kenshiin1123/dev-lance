@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Junge';
+    src: url('./assets/fonts/Junge-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Kadwa';
+    src: url('./assets/fonts/Kadwa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

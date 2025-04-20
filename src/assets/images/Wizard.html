@@ -1,0 +1,2810 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0022)https://192.168.0.254/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script language="JavaScript">
+var productInfo = new Array(
+"en",
+0,0 );
+</script>
+
+
+
+
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:33:43 GMT">
+<link rel="icon" href="https://192.168.0.254/themes/dark/img/favicon.png" type="image/png"> 
+<link type="text/css" href="https://192.168.0.254/css/widget.css" rel="stylesheet">
+
+<link type="text/css" href="https://192.168.0.254/themes/dark/css/widget.css" rel="stylesheet">
+<link type="text/css" href="https://192.168.0.254/themes/dark/css/style.css" rel="stylesheet">
+
+
+
+<title>Wizard</title>
+</head>
+
+<body class="wizard-body repeater-wizard" style="">
+
+	<div id="start-quick-setup" class="start-quick-setup hidden">
+		<h1 id="text-quick-setup-title">Quick Setup</h1>
+		<p id="text-quick-setup-note">The quick setup will tell you how to configure the basic network parameters.</p>
+		<div class="container widget-container button-container"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button id="start-quick-setup-btn" class="button-button"><span class="text button-text">Let's Get Started</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+	</div>
+
+	<div class="top" id="top-wrapper" style="height: 645px;">
+		<div class="top-header">
+			<div class="top-header-wrap">
+				<h1 id="product-tag">
+					<span class="icon"></span>
+					<span class="separate hidden" style="display:none"></span>
+					<span class="text hidden" id="devname"></span>
+				</h1>
+			</div>
+		</div>
+
+		<div id="quick-setup-wizard" class="quick-setup-wizard container widget-container wizard-container"><div class="process-flow"><div class="process-flow-wrap"><div name="account" class="process-flow-step step0 processed"><span class="icon"></span></div><span class="bar processed"><span class="bar-inner" style="width: 100%;"></span></span><div name="deviceMode" class="process-flow-step step1 processed"><span class="icon"></span></div><span class="bar hidden"><span class="bar-inner"></span></span><div name="wirelessBasicSetting" class="process-flow-step step2 hidden"><span class="icon"></span></div><span class="bar hidden"><span class="bar-inner"></span></span><div name="apSummary" class="process-flow-step step3 hidden"><span class="icon"></span></div><span class="bar processed"><span class="bar-inner" style="width: 100%;"></span></span><div name="repeaterSettings" class="process-flow-step step4 processed"><span class="icon"></span></div><span class="bar processed"><span class="bar-inner" style="width: 100%;"></span></span><div name="extendNetwork" class="process-flow-step step5 processed"><span class="icon"></span></div><span class="bar processed"><span class="bar-inner" style="width: 100%;"></span></span><div name="repeaterSummary" class="process-flow-step step6 lst current"><span class="icon"></span></div></div></div><div class="form-container"><div class="form-step" data-step="0" name="account" style="display: none;"><div class="form-content" data-step="0" name="account"><div id="wizard-step-account" class="wizard-step-account" name="account">
+			<p id="text_new_account" class="wizard-setup-title">Set up a new account</p>
+			<div class="container widget-container text-container valid"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">New Username</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input type="text" id="wizard_account_username" name="newUserName" value="" class="text-text l" maxlength="64"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta" style="left: 76.5px;"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: 166px; white-space: normal;">This field is required.</div></div></div></div></div>
+			<div class="container widget-container text-container password-container  level valid"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">New Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer"><div class="widget-wrap text-wrap password-wrap allow-visible"><span class="text-wrap password-wrap "><input type="password" class="text-text password-text password-hidden l" maxlength="64" style="display: none;"><input type="text" class="text-text password-text password-visible hidden l" maxlength="64" style="display: inline-block;"><span class="icon allow-visible-btn visible"></span><input type="password" id="wizard_account_password" name="newPwd" value="" class="hidden"></span><div class="password-level l level-2"><span class="level low">Low</span><span class="level middle">Middle</span><span class="level high">High</span></div></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta" style="left: 76.5px;"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: 166px; white-space: normal;">This field is required.</div></div></div></div></div>
+			<div class="container widget-container text-container password-container inline-block valid"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">Confirm Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer"><div class="widget-wrap text-wrap password-wrap allow-visible"><span class="text-wrap password-wrap "><input type="password" class="text-text password-text password-hidden l" maxlength="64" style="display: none;"><input type="text" class="text-text password-text password-visible hidden l" maxlength="64" style="display: inline-block;"><span class="icon allow-visible-btn visible"></span><input type="password" id="wizard_account_confirm" name="confirmPwd" value="" class="hidden"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta" style="left: 76.5px;"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: 166px; white-space: normal;">Invalid value.</div></div></div></div></div>
+			<div class="container widget-container status-container inline success"><div class="widget-wrap status-wrap"><span class="icon"></span><span class="text "></span></div><input id="wizard_account_status" value="" class="hidden"></div>
+			<div class="allow-data-collection-container">
+				<div class="container widget-container checkbox-group-container allow-data-collection"><input id="allow-data-collection" name="allowDataCollection" value="" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel checkbox-group-label">Allow Data Collection</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label " for="checkbox-944242529"><input class="hidden" type="hidden" name="allowDataCollection" value="" data-checked="1" data-unchecked=""><input class="checkbox-checkbox" type="checkbox" name="allowDataCollection" value="1" data-checked="1" data-unchecked="" id="checkbox-944242529"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div id="allow-data-collection-tip" class="icon tooltip-icon allow-data-collection-tip"><div class="container widget-container tip-container " id="tip-3918630988" style="left: -10px; top: 20px; display: none;"><div class="tip-wrap"><span class="tip-delta"></span><div class="tip-text"><p id="allow-data-collection-note">With Allow Data Collection enabled, the device will report the device name, device ID, MAC address, hardware ID, device model, hardware version, and software version to the cloud. The information is only used to help us understand the device activation status to provide you with better services. If you do not want the device to report the information, you can disable the feature at any time.</p></div></div></div></div>
+				
+			</div>
+		</div></div><div class="form-buttons-container"><div class="form-buttons-content"><div class="container widget-container button-container wizard-btn btn-next"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-next wizard-buttons button-button" data-name="account" data-step="0"><span class="text button-text">Next</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div></div></div></div><div class="form-step" data-step="1" name="deviceMode" style="display: none;"><div class="form-content" data-step="1" name="deviceMode"><div id="wizard-step-device-mode" class="" name="deviceMode">
+			<p id="selected-device-mode-title" class="wizard-setup-title">Select an operation mode</p>
+			<div class="device-mode-selected">
+				<input id="device-mode-radio" class="hidden">
+				<div id="ap-mode" class="mode-select ap-mode">
+					<span class="selected-icon"></span>
+					<div class="mode-selected-container">
+						<h2 id="ap-mode-title" class="mode-title">AP Mode</h2>
+						<p id="ap-mode-note" class="mode-note">In this mode, the AP connects to a router via an Ethernet cable and transforms the wired network into a wireless one.</p>
+					</div>
+				</div>
+				<div id="repeater-mode" class="mode-select selected">
+					<span class="selected-icon"></span>
+					<div class="mode-selected-container">
+						<h2 id="repeater-mode-title" class="mode-title">Repeater Mode</h2>
+						<p id="repeater-mode-note" class="mode-note">In this mode, the AP connects to the existing network wirelessly and expands its wireless coverage.</p>
+					</div>
+				</div>
+			</div>
+		</div></div><div class="form-buttons-container"><div class="form-buttons-content"><div class="container widget-container button-container wizard-btn btn-prev"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-prev wizard-buttons button-button" data-name="deviceMode" data-step="1"><span class="text button-text">Back</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div><div class="container widget-container button-container wizard-btn btn-next"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-next wizard-buttons button-button" data-name="deviceMode" data-step="1"><span class="text button-text">Next</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div></div></div></div><div class="form-step" data-step="2" name="wirelessBasicSetting" style="display: none;"><div class="form-content" data-step="2" name="wirelessBasicSetting"><div id="wizard-step-wireless" class="wizard-step-wireless" name="wirelessBasicSetting">
+			<p id="text_wireless_settings" class="wizard-setup-title">Configure wireless settings</p>
+
+			<div id="wizard-step-wireless_2g" class="part-separate">
+				<div class="container widget-container checkbox-group-container "><input id="wireless_enable_2g" name="wireless_enable_2g" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap l"><label class="widget-fieldlabel checkbox-group-label">2.4GHz Wireless Radio</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label checked" for="checkbox-725680729"><input class="hidden" type="hidden" name="wireless_enable_2g" value="off" data-checked="on" data-unchecked="off" disabled="disabled"><input class="checkbox-checkbox" type="checkbox" name="wireless_enable_2g" value="on" data-checked="on" data-unchecked="off" id="checkbox-725680729" checked="checked"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div class="container widget-container text-container "><div class="widget-fieldlabel-wrap l"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="wireless_ssid_2g" name="wireless_ssid_2g" class="text-text l" maxlength="32"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div class="container widget-container text-container "><div class="widget-fieldlabel-wrap l"><label class="widget-fieldlabel text-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="wireless_password_2g" name="wireless_password_2g" class="text-text l" maxlength="63"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			</div>
+
+			<div id="wizard-step-wireless_5g" class="part-separate">
+				<div class="container widget-container checkbox-group-container "><input id="wireless_enable_5g" name="wireless_enable_5g" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap l"><label class="widget-fieldlabel checkbox-group-label">5GHz Wireless Radio</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label checked" for="checkbox-429888743"><input class="hidden" type="hidden" name="wireless_enable_5g" value="off" data-checked="on" data-unchecked="off" disabled="disabled"><input class="checkbox-checkbox" type="checkbox" name="wireless_enable_5g" value="on" data-checked="on" data-unchecked="off" id="checkbox-429888743" checked="checked"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div class="container widget-container text-container "><div class="widget-fieldlabel-wrap l"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="wireless_ssid_5g" name="wireless_ssid_5g" class="text-text l" maxlength="32"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div class="container widget-container text-container "><div class="widget-fieldlabel-wrap l"><label class="widget-fieldlabel text-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="wireless_password_5g" name="wireless_password_5g" class="text-text l" maxlength="63"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			</div>
+		</div></div><div class="form-buttons-container"><div class="form-buttons-content"><div class="container widget-container button-container wizard-btn btn-prev"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-prev wizard-buttons button-button" data-name="wirelessBasicSetting" data-step="2"><span class="text button-text">Back</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div><div class="container widget-container button-container wizard-btn btn-skip"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-skip wizard-buttons wizard-btn-cancel button-button" data-name="wirelessBasicSetting" data-step="2"><span class="text button-text">Skip</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div><div class="container widget-container button-container wizard-btn btn-next"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-next wizard-buttons button-button" data-name="wirelessBasicSetting" data-step="2"><span class="text button-text">Next</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div></div></div></div><div class="form-step" data-step="3" name="apSummary" style="display: none;"><div class="form-content" data-step="3" name="apSummary"><div id="wizard-step-ap-summary" class="" name="apSummary">
+			<div id="wizard_step_apply" class="wizard-step-apply hidden">
+				<p id="text_applying" class="wizard-setup-title">Applying</p>
+				<div class="container widget-container progressbar-container progressbar-horizontal inline"><div class="widget-wrap-outer progressbar-wrap-outer"><div class="widget-wrap progressbar-wrap"><div class="widget-wrap progressbar-content" style="width: 460px; height: 4px;"><div class="progressbar-value" style="width:0px"></div></div><div class="progressbar-text"><span class="progressbar-percentage">0%</span></div></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div><input id="wizard_applying_pro" name="probar" width="460" height="4" class="hidden"></div>
+			</div>
+	
+			<div id="wizard_step_finish" class="wizard-step-finish hidden">
+				<p id="ap-summary-title" class="wizard-setup-title has-note">Summary</p>
+				<p id="ap-summary-note" class="wizard-setup-note">Please confirm your settings.</p>
+	
+				<div class="settings-summary-container">
+					<p id="device_account_title" class="settings-summary-title">Device Account</p>
+					<form id="summary_device_account_form" class="no-padding form-panel" enctype="application/x-www-form-urlencoded" method="POST" action="https://192.168.0.254/" target="_self">
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">User Name</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_user_name" name="summaryUserName" readonly="" class="text-text l"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_password" name="summaryPassword" readonly="" class="text-text l"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					<div class="form-prompt successed"><div class="bg"></div><div class="content"><span class="icon"></span><span class="text text-successed">Saved</span><span class="text text-failed">Failed</span></div></div></form>
+				</div>
+
+				<div id="ap_summary_container_2g" class="settings-summary-container">
+					<p id="finish_2g_disable">2.4GHz Wireless Off</p>
+					<div id="finish_2g" class="finish-2g-block">
+						<p id="text_finish_2g" class="text-finish-2g">2.4GHz Wireless</p>
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap s-160"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="finish_ssid_2g" name="finish_ssid_2g" readonly="" class="text-text xl"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+						<!-- <input id="finish_password_2g" name="finish_password_2g" /> -->
+						<div id="finish_password_2g_block" class="">
+							<span id="finish_password_2g_label" class="wizard-ssid-label width-160">Password:</span>
+							<p id="finish_password_2g" class="wizard-ssid-content"></p>
+						</div>
+						<div id="finish_security_2g_block" class="">
+							<span id="finish_security_2g_label" class="wizard-ssid-label wizard-security-label width-160">Security Mode:</span>
+							<p id="finish_security_2g" class="wizard-security-content">None</p>
+						</div>
+					</div>
+				</div>
+				<div id="ap_summary_container_5g" class="settings-summary-container">
+					<p id="finish_5g_disable">5GHz Wireless Off</p>
+					<div id="finish_5g" class="finish-5g-block hidden">
+						<p id="text_finish_5g" class="text-finish-5g">5GHz Wireless</p>
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap s-160"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="finish_ssid_5g" name="finish_ssid_5g" readonly="" class="text-text xl"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+						<!-- <input id="finish_password_5g" name="finish_password_5g" /> -->
+		
+						<div id="finish_password_5g_block" class="">
+							<span id="finish_password_5g_label" class="wizard-ssid-label width-160">Password:</span>
+							<p id="finish_password_5g" class="wizard-ssid-content"></p>
+						</div>
+						<div id="finish_security_5g_block" class="">
+							<span id="finish_security_5g_label" class="wizard-ssid-label wizard-security-label width-160">Security Mode:</span>
+							<p id="finish_security_5g" class="wizard-security-content">None</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div></div><div class="form-buttons-container"><div class="form-buttons-content"><div class="container widget-container button-container wizard-btn btn-prev"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-prev wizard-buttons button-button" data-name="apSummary" data-step="3"><span class="text button-text">Back</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div><div class="container widget-container button-container wizard-btn btn-next"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-next wizard-buttons button-button" data-name="apSummary" data-step="3"><span class="text button-text">Done</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div></div></div></div><div class="form-step" data-step="4" name="repeaterSettings" style="display: none;"><div class="form-content" data-step="4" name="repeaterSettings"><div id="wizard_step_repeater_settings" class="repeater-settings-container" name="repeaterSettings">
+			<p id="repeater_settings_title" class="wizard-setup-title has-note">Configure repeater settings</p>
+			<p id="repeater_settings_note" class="wizard-setup-note repeater-settings-note">If the host network is using a DFS channel, please connect to the repeater’s 2.4GHz SSID to complete the setup.</p>
+			<form id="repeater_basic_settings_form" class="no-padding repeater-basic-setting form-panel" enctype="application/x-www-form-urlencoded" method="POST" action="https://192.168.0.254/" target="_self">
+				<div class="container widget-container combobox-container single"><input id="repeater_settings_radio" name="radioID" value="0" readonly="" class="hidden combobox-value"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel combobox-fieldlabel">Band</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer combobox-wrap-outer"><div class="widget-wrap combobox-wrap"><input class="combobox-text xl" type="text" readonly="true" value="- Please Select -"><a class="combobox-switch" href="javascript:void(0);"><span class="icon"></span></a><div class="combobox-list-wrap" toggleflag="hidden" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-center-left"><div class="position-center-right"><div class="combobox-list-content-wrap"><ul class="combobox-list"><li class="combobox-list selected"><label for="repeater_settings_radio-option-8135077988" type="single" class="combobox-label single"><input id="repeater_settings_radio-option-8135077988" name="radioID" display="2.4GHz" index="false" class="combobox-checkbox" type="checkbox" value="0"><span class="icon"></span><span class="text">2.4GHz</span></label></li><li class="combobox-list"><label for="repeater_settings_radio-option-2628263221" type="single" class="combobox-label single"><input id="repeater_settings_radio-option-2628263221" name="radioID" display="5GHz" index="false" class="combobox-checkbox" type="checkbox" value="1" checked="checked"><span class="icon"></span><span class="text">5GHz</span></label></li></ul></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div></div></div><div class="widget-error-tips combobox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: inherit; white-space: nowrap;"></div></div></div></div></div>
+				<div id="channel_limit_container" class="hidden">
+					<div class="container widget-container checkbox-group-container "><input id="repeater_settings_channel_limit" name="channelLimit" value="0" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel checkbox-group-label">Channel Limit</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label" for="checkbox-312466485"><input class="hidden" type="hidden" name="channelLimit" value="" data-checked="1" data-unchecked=""><input class="checkbox-checkbox" type="checkbox" name="channelLimit" value="1" data-checked="1" data-unchecked="" id="checkbox-312466485"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					<p id="channel_limit_note" class="wizard-setup-note channel-limit-note">When enabled, outdoor EAPs do not use the channel with the frequency ranging from 5150 MHz to 5350 MHz to meet the local laws and regulations limit in EU countries.</p>
+				</div>
+			<div class="form-prompt successed"><div class="bg"></div><div class="content"><span class="icon"></span><span class="text text-successed">Saved</span><span class="text text-failed">Failed</span></div></div></form>
+			<div class="display-label l selected-ssid-container">
+				<span id="ssid_scan_label" class="label-text">SSID:</span>
+				<div class="container widget-container button-container scan-button"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button id="refresh_ssid_button" class="button-button"><span class="text button-text" style="display: inline;">Refresh</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			</div>
+			<div id="selected_ssid" class="ssid-container selected-ssid">
+				<span id="selected_ssid_icon" class="sector-signal selected-ssid-icon ssid-signal-level-1"></span>
+				<div class="selected-ssid-name-container">
+					<p id="selected_ssid_name" class="ssid-name">PLDTHOMEFIBRc7228</p>
+					<p id="selected_bssid_name" class="bssid-name">1C:61:D2:7C:72:28</p>
+				</div>
+				<span class="selected-ssid-status"></span>
+			</div>
+			<div id="ssid_list_grid" class="ssid-container ssid-list-grid container widget-container panel-container grid-panel"><div class="panel-wrap"><div class="panel-content" style="display: block"><div class="panel-tbar-container"></div><div class="panel-content-container"><div class="container grid-container"><style type="text/css">div#ssid_list_grid th.grid-header-0,div#ssid_list_grid td.grid-content-td-0{width:50px;}div#ssid_list_grid th.grid-header-2,div#ssid_list_grid td.grid-content-td-2{width:30px;}div#ssid_list_grid div.grid-content-container{max-height:300px;}</style><div class="container grid-header-container"><table><tbody><tr class="grid-header-tr"><th class="grid-header grid-header-0 Signal" name="Signal"><span class="content"></span></th><th class="grid-header grid-header-1 ssid" name="ssid"><span class="content"></span></th><th class="grid-header grid-header-2 securityMode" name="securityMode"><span class="content"></span></th></tr></tbody></table></div><div class="grid-content-container"><table><tbody class="grid-content-data"><tr class="grid-content-tr grid-content-tr-key-5" data-key="key-5"><td class="grid-content-td grid-content-td-0 grid-content-td-Signal fst " name="Signal"><span class="content"><div title="-54 "><span class="sector-signal ssid-signal-level-2"></span></div></span></td><td class="grid-content-td grid-content-td-1 grid-content-td-ssid  " name="ssid"><span class="content"><p class="ssid-name">JOYENS70523_2.4G</p><p class="bssid-name">E4:84:2B:3D:8D:85</p></span></td><td class="grid-content-td grid-content-td-2 grid-content-td-securityMode  lst" name="securityMode"><span class="content"><span class="lock-icon"></span></span></td></tr><tr class="grid-content-tr grid-content-tr-key-6" data-key="key-6"><td class="grid-content-td grid-content-td-0 grid-content-td-Signal fst " name="Signal"><span class="content"><div title="-86 "><span class="sector-signal ssid-signal-level-1"></span></div></span></td><td class="grid-content-td grid-content-td-1 grid-content-td-ssid  " name="ssid"><span class="content"><p class="ssid-name">PLDTHOMEFIBRc7228</p><p class="bssid-name">1C:61:D2:7C:72:28</p></span></td><td class="grid-content-td grid-content-td-2 grid-content-td-securityMode  lst" name="securityMode"><span class="content"><span class="lock-icon"></span></span></td></tr></tbody></table></div></div></div><div class="panel-fbar-container"></div></div></div></div>
+			<div id="search_network_container" class="search-network-container hidden">
+				<span class="search-network-icon"></span>
+				<div id="search_network_text" class="note-text">Please scan for avaiable networks.</div>
+			</div>
+			<div id="empty_ssid_list_grid" class="empty-ssid-list-grid hidden">
+				<span class="nossid-icon"></span>
+				<div id="empty_ssid_list_text" class="note-text">No available network.</div>
+			</div>
+			<div id="scanning_ssid" class="scanning-ssid hidden">
+				<span class="scanning-icon"></span>
+				<div id="scanning_ssid_text" class="note-text">Scanning...</div>
+			</div>
+			<div id="other_ssid" class="other-ssid">
+				<span id="other_ssid_text" class="other-ssid-text">Other...</span>
+			</div>
+		</div></div><div class="form-buttons-container"><div class="form-buttons-content"><div class="container widget-container button-container wizard-btn btn-prev"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-prev wizard-buttons button-button" data-name="repeaterSettings" data-step="4"><span class="text button-text">Back</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div><div class="container widget-container button-container wizard-btn btn-next"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-next wizard-buttons button-button" data-name="repeaterSettings" data-step="4"><span class="text button-text">Next</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div></div></div></div><div class="form-step" data-step="5" name="extendNetwork" style="display: none;"><div class="form-content" data-step="5" name="extendNetwork"><div id="wizard_step_extend_network" class="" name="extendNetwork">
+		<p id="extend_network_title" class="wizard-setup-title">Configure the extended network</p>
+		<p id="extend_network_settings_title_2g" class="extend-network-settings-title">2.4GHz</p>
+		<form id="extend_network_form_2g" class="no-padding form-panel" enctype="application/x-www-form-urlencoded" method="POST" action="https://192.168.0.254/" target="_self">
+			<div class="container widget-container checkbox-group-container "><input id="extend_network_enable_2g" name="extendNetworkEnable" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel checkbox-group-label">2.4GHz</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label checked" for="checkbox-996036534"><input class="hidden" type="hidden" name="extendNetworkEnable" value="" data-checked="1" data-unchecked=""><input class="checkbox-checkbox" type="checkbox" name="extendNetworkEnable" value="1" data-checked="1" data-unchecked="" id="checkbox-996036534" checked="checked"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			<div id="extend_network_settings_container_2g">
+				<div class="container widget-container checkbox-group-container "><input id="extend_network_copy_enable_2g" name="extendNetworkCopyEnable" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel checkbox-group-label">Copy host SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label" for="checkbox-927945260"><input class="hidden" type="hidden" name="extendNetworkCopyEnable" value="" data-checked="1" data-unchecked="" disabled=""><input class="checkbox-checkbox" type="checkbox" name="extendNetworkCopyEnable" value="1" data-checked="1" data-unchecked="" id="checkbox-927945260" disabled=""><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div id="input_settings_container_2g" class="">
+					<div class="container widget-container text-container valid"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="extend_network_ssid_2g" name="extendNetworkSsid" class="text-text l" maxlength="32" snapshot="PLDTHOMEFIBRc7228"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta" style="left: 76.5px;"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: 166px; white-space: normal;">This field is required.</div></div></div></div></div>
+					<div class="container widget-container combobox-container single"><input id="extend_network_security_2g" name="extendNetworkSecurity" readonly="" class="hidden combobox-value"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel combobox-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer combobox-wrap-outer"><div class="widget-wrap combobox-wrap"><input class="combobox-text l" type="text" readonly="true" value="- Please Select -"><a class="combobox-switch" href="javascript:void(0);"><span class="icon"></span></a><div class="combobox-list-wrap" toggleflag="hidden" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-center-left"><div class="position-center-right"><div class="combobox-list-content-wrap"><ul class="combobox-list"><li class="combobox-list"><label for="extend_network_security_2g-option-2937061254" type="single" class="combobox-label single"><input id="extend_network_security_2g-option-2937061254" name="extendNetworkSecurity" display="None" index="false" class="combobox-checkbox" type="checkbox" value="0"><span class="icon"></span><span class="text">None</span></label></li><li class="combobox-list"><label for="extend_network_security_2g-option-5284962198" type="single" class="combobox-label single"><input id="extend_network_security_2g-option-5284962198" name="extendNetworkSecurity" display="WPA-PSK" index="false" class="combobox-checkbox" type="checkbox" value="2"><span class="icon"></span><span class="text">WPA-PSK</span></label></li><li class="combobox-list"><label for="extend_network_security_2g-option-6755292865" type="single" class="combobox-label single"><input id="extend_network_security_2g-option-6755292865" name="extendNetworkSecurity" display="WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="3"><span class="icon"></span><span class="text">WPA2-PSK</span></label></li><li class="combobox-list   selected"><label for="extend_network_security_2g-option-2093511960" type="single" class="combobox-label single"><input id="extend_network_security_2g-option-2093511960" name="extendNetworkSecurity" display="WPA-PSK/WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="4" checked="checked"><span class="icon"></span><span class="text">WPA-PSK/WPA2-PSK</span></label></li></ul></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div></div></div><div class="widget-error-tips combobox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: inherit; white-space: nowrap;"></div></div></div></div></div>
+					<div id="extend_network_password_container_2g">
+						<div class="container widget-container text-container password-container valid"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer"><div class="widget-wrap text-wrap password-wrap allow-visible"><span class="text-wrap password-wrap "><input type="password" class="text-text password-text password-hidden l" maxlength="63" style="display: none;"><input type="text" class="text-text password-text password-visible hidden l" maxlength="63" style="display: inline-block;"><span class="icon allow-visible-btn visible"></span><input id="extend_network_password_2g" name="extendNetworkPassword" class="hidden"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta" style="left: 76.5px;"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: 166px; white-space: normal;">8-63 ASCII characters</div></div></div></div></div>
+					</div>
+				</div>
+				<div id="copy_settings_container_2g" class="hidden">
+					<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="copy_ssid_2g" name="extendNetworkCopySsid" readonly="" class="text-text l" snapshot="PLDTHOMEFIBRc7228"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					<div id="copy_security_password_container_2g">
+						<div class="container widget-container combobox-container single"><input id="copy_security_2g" name="extendNetworkCopySecurity" readonly="" class="hidden combobox-value"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel combobox-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer combobox-wrap-outer"><div class="widget-wrap combobox-wrap"><input class="combobox-text l" type="text" readonly="true" value="- Please Select -"><a class="combobox-switch" href="javascript:void(0);"><span class="icon"></span></a><div class="combobox-list-wrap" toggleflag="hidden" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-center-left"><div class="position-center-right"><div class="combobox-list-content-wrap"><ul class="combobox-list"><li class="combobox-list"><label for="copy_security_2g-option-442125285" type="single" class="combobox-label single"><input id="copy_security_2g-option-442125285" name="extendNetworkCopySecurity" display="WPA-PSK" index="false" class="combobox-checkbox" type="checkbox" value="2"><span class="icon"></span><span class="text">WPA-PSK</span></label></li><li class="combobox-list"><label for="copy_security_2g-option-3639548290" type="single" class="combobox-label single"><input id="copy_security_2g-option-3639548290" name="extendNetworkCopySecurity" display="WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="3"><span class="icon"></span><span class="text">WPA2-PSK</span></label></li><li class="combobox-list   selected"><label for="copy_security_2g-option-8336287155" type="single" class="combobox-label single"><input id="copy_security_2g-option-8336287155" name="extendNetworkCopySecurity" display="WPA-PSK/WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="4" checked="checked"><span class="icon"></span><span class="text">WPA-PSK/WPA2-PSK</span></label></li></ul></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div></div></div><div class="widget-error-tips combobox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: inherit; white-space: nowrap;"></div></div></div></div></div>
+						<div class="container widget-container text-container password-container   disabled"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer"><div class="widget-wrap text-wrap password-wrap allow-visible"><span class="text-wrap password-wrap "><input type="password" class="text-text password-text password-hidden l" maxlength="16" disabled=""><input type="text" class="text-text password-text password-visible hidden l" maxlength="16" disabled=""><span class="icon allow-visible-btn"></span><input id="copy_password_2g" name="extendNetworkCopyPassword" readonly="readonly" class="hidden"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					</div>
+					<div id="copy_security_none_container_2g" class="hidden">
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="copy_security_none_2g" readonly="" class="text-text l" snapshot="None"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					</div>
+				</div>
+				<div class="container widget-container checkbox-group-container "><input id="extend_network_ssid_broadcast_2g" name="extendNetworkSsidBroadcast" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel checkbox-group-label">SSID Broadcast</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label checked" for="checkbox-545125101"><input class="hidden" type="hidden" name="extendNetworkSsidBroadcast" value="" data-checked="1" data-unchecked=""><input class="checkbox-checkbox" type="checkbox" name="extendNetworkSsidBroadcast" value="1" data-checked="1" data-unchecked="" id="checkbox-545125101" checked="checked"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			</div>
+		<div class="form-prompt successed"><div class="bg"></div><div class="content"><span class="icon"></span><span class="text text-successed">Saved</span><span class="text text-failed">Failed</span></div></div></form>
+
+		<p id="extend_network_settings_title_5g" class="extend-network-settings-title">5GHz</p>
+		<form id="extend_network_form_5g" class="no-padding form-panel" enctype="application/x-www-form-urlencoded" method="POST" action="https://192.168.0.254/" target="_self">
+			<div class="container widget-container checkbox-group-container "><input id="extend_network_enable_5g" name="extendNetworkEnable" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel checkbox-group-label">5GHz</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label checked" for="checkbox-335851436"><input class="hidden" type="hidden" name="extendNetworkEnable" value="" data-checked="1" data-unchecked="" disabled="disabled"><input class="checkbox-checkbox" type="checkbox" name="extendNetworkEnable" value="1" data-checked="1" data-unchecked="" id="checkbox-335851436" checked="checked"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			<div id="extend_network_settings_container_5g">
+				<div class="container widget-container checkbox-group-container "><input id="extend_network_copy_enable_5g" name="extendNetworkCopyEnable" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel checkbox-group-label">Copy host SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label " for="checkbox-730931925"><input class="hidden" type="hidden" name="extendNetworkCopyEnable" value="" data-checked="1" data-unchecked=""><input class="checkbox-checkbox" type="checkbox" name="extendNetworkCopyEnable" value="1" data-checked="1" data-unchecked="" id="checkbox-730931925"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div id="input_settings_container_5g">
+					<div class="container widget-container text-container valid"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="extend_network_ssid_5g" name="extendNetworkSsid" class="text-text l" maxlength="32" snapshot="PLDTHOMEFIBRc7228_5G_EXT"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					<div class="container widget-container combobox-container single"><input id="extend_network_security_5g" name="extendNetworkSecurity" readonly="" class="hidden combobox-value"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel combobox-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer combobox-wrap-outer"><div class="widget-wrap combobox-wrap"><input class="combobox-text l" type="text" readonly="true" value="- Please Select -"><a class="combobox-switch" href="javascript:void(0);"><span class="icon"></span></a><div class="combobox-list-wrap" toggleflag="hidden" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-center-left"><div class="position-center-right"><div class="combobox-list-content-wrap"><ul class="combobox-list"><li class="combobox-list   "><label for="extend_network_security_5g-option-774610766" type="single" class="combobox-label single"><input id="extend_network_security_5g-option-774610766" name="extendNetworkSecurity" display="None" index="false" class="combobox-checkbox" type="checkbox" value="0"><span class="icon"></span><span class="text">None</span></label></li><li class="combobox-list   "><label for="extend_network_security_5g-option-2646891500" type="single" class="combobox-label single"><input id="extend_network_security_5g-option-2646891500" name="extendNetworkSecurity" display="WPA-PSK" index="false" class="combobox-checkbox" type="checkbox" value="2"><span class="icon"></span><span class="text">WPA-PSK</span></label></li><li class="combobox-list   "><label for="extend_network_security_5g-option-7222631963" type="single" class="combobox-label single"><input id="extend_network_security_5g-option-7222631963" name="extendNetworkSecurity" display="WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="3"><span class="icon"></span><span class="text">WPA2-PSK</span></label></li><li class="combobox-list   selected"><label for="extend_network_security_5g-option-6096920571" type="single" class="combobox-label single"><input id="extend_network_security_5g-option-6096920571" name="extendNetworkSecurity" display="WPA-PSK/WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="4" checked="checked"><span class="icon"></span><span class="text">WPA-PSK/WPA2-PSK</span></label></li></ul></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div></div></div><div class="widget-error-tips combobox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: inherit; white-space: nowrap;"></div></div></div></div></div>
+					<div id="extend_network_password_container_5g">
+						<div class="container widget-container text-container password-container valid"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer"><div class="widget-wrap text-wrap password-wrap allow-visible"><span class="text-wrap password-wrap "><input type="password" class="text-text password-text password-hidden l" maxlength="63" style="display: none;"><input type="text" class="text-text password-text password-visible hidden l" maxlength="63" style="display: inline-block;"><span class="icon allow-visible-btn visible"></span><input id="extend_network_password_5g" name="extendNetworkPassword" class="hidden"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta" style="left: 76.5px;"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: 166px; white-space: normal;">8-63 ASCII characters</div></div></div></div></div>
+					</div>
+				</div>
+				<div id="copy_settings_container_5g" class="hidden">
+					<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="copy_ssid_5g" name="extendNetworkCopySsid" readonly="" class="text-text l" snapshot="PLDTHOMEFIBRc7228"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					<div id="copy_security_password_container_5g">
+						<div class="container widget-container combobox-container single"><input id="copy_security_5g" name="extendNetworkCopySecurity" readonly="" class="hidden combobox-value"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel combobox-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer combobox-wrap-outer"><div class="widget-wrap combobox-wrap"><input class="combobox-text l" type="text" readonly="true" value="- Please Select -"><a class="combobox-switch" href="javascript:void(0);"><span class="icon"></span></a><div class="combobox-list-wrap" toggleflag="hidden" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-center-left"><div class="position-center-right"><div class="combobox-list-content-wrap"><ul class="combobox-list"><li class="combobox-list"><label for="copy_security_5g-option-5571196872" type="single" class="combobox-label single"><input id="copy_security_5g-option-5571196872" name="extendNetworkCopySecurity" display="WPA-PSK" index="false" class="combobox-checkbox" type="checkbox" value="2"><span class="icon"></span><span class="text">WPA-PSK</span></label></li><li class="combobox-list"><label for="copy_security_5g-option-7333474947" type="single" class="combobox-label single"><input id="copy_security_5g-option-7333474947" name="extendNetworkCopySecurity" display="WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="3"><span class="icon"></span><span class="text">WPA2-PSK</span></label></li><li class="combobox-list   selected"><label for="copy_security_5g-option-1737119077" type="single" class="combobox-label single"><input id="copy_security_5g-option-1737119077" name="extendNetworkCopySecurity" display="WPA-PSK/WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="4" checked="checked"><span class="icon"></span><span class="text">WPA-PSK/WPA2-PSK</span></label></li></ul></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div></div></div><div class="widget-error-tips combobox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: inherit; white-space: nowrap;"></div></div></div></div></div>
+						<div class="container widget-container text-container password-container   disabled"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer"><div class="widget-wrap text-wrap password-wrap allow-visible"><span class="text-wrap password-wrap "><input type="password" class="text-text password-text password-hidden l" maxlength="16" disabled=""><input type="text" class="text-text password-text password-visible hidden l" maxlength="16" disabled=""><span class="icon allow-visible-btn"></span><input id="copy_password_5g" name="extendNetworkCopyPassword" readonly="readonly" class="hidden"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					</div>
+					<div id="copy_security_none_container_5g" class="hidden">
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="copy_security_none_5g" readonly="" class="text-text l" snapshot="None"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					</div>
+				</div>
+				<div class="container widget-container checkbox-group-container "><input id="extend_network_ssid_broadcast_5g" name="extendNetworkSsidBroadcast" class="hidden checkbox" disabled=""><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel checkbox-group-label">SSID Broadcast</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer checkbox-group-wrap-outer"><div class="checkbox-group-wrap"><ul class="checkbox-group-list-wrap"><li class="checkbox-list"><div class="widget-wrap"><label class="checkbox-label checked" for="checkbox-978908025"><input class="hidden" type="hidden" name="extendNetworkSsidBroadcast" value="" data-checked="1" data-unchecked="" disabled="disabled"><input class="checkbox-checkbox" type="checkbox" name="extendNetworkSsidBroadcast" value="1" data-checked="1" data-unchecked="" id="checkbox-978908025" checked="checked"><span class="icon"></span><span class="text">Enable</span></label></div></li></ul></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			</div>
+		<div class="form-prompt successed"><div class="bg"></div><div class="content"><span class="icon"></span><span class="text text-successed">Saved</span><span class="text text-failed">Failed</span></div></div></form>
+	</div></div><div class="form-buttons-container"><div class="form-buttons-content"><div class="container widget-container button-container wizard-btn btn-prev"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-prev wizard-buttons button-button" data-name="extendNetwork" data-step="5"><span class="text button-text">Back</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div><div class="container widget-container button-container wizard-btn btn-next"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-next wizard-buttons button-button" data-name="extendNetwork" data-step="5"><span class="text button-text">Next</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div></div></div></div><div class="form-step" data-step="6" name="repeaterSummary" style=""><div class="form-content" data-step="6" name="repeaterSummary"><div id="wizard_step_repeater_summary" class="" name="repeaterSummary">
+		<p id="repeater_summary_title" class="wizard-setup-title has-note">Summary</p>
+		<p id="repeater_summary_note" class="wizard-setup-note">Please confirm your settings.</p>
+		<div class="settings-summary-container">
+			<p id="repeater_device_account_title" class="settings-summary-title">Device Account</p>
+			<form id="repeater_summary_device_account_form" class="no-padding form-panel" enctype="application/x-www-form-urlencoded" method="POST" action="https://192.168.0.254/" target="_self">
+				<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">User Name</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="repeater_summary_user_name" name="summaryUserName" readonly="" class="text-text l" snapshot="ligaya143"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="repeater_summary_password" name="summaryPassword" readonly="" class="text-text l" snapshot=".!143ligaya143!."></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			<div class="form-prompt successed"><div class="bg"></div><div class="content"><span class="icon"></span><span class="text text-successed">Saved</span><span class="text text-failed">Failed</span></div></div></form>
+		</div>
+		<div class="settings-summary-container">
+			<p id="host_router_title" class="settings-summary-title">Host Router</p>
+			<form id="summary_host_form" class="no-padding form-panel" enctype="application/x-www-form-urlencoded" method="POST" action="https://192.168.0.254/" target="_self">
+				<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">BSSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_host_bssid" name="summaryHostBssid" readonly="" class="text-text xl" snapshot="1C:61:D2:7C:72:28"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">2.4GHz SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_host_ssid" name="summaryHostssid" readonly="" class="text-text xl" snapshot="PLDTHOMEFIBRc7228"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				<div id="summary_host_password_container">
+					<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_host_password" name="summaryHostPassword" readonly="" class="text-text xl" snapshot="@PLDTadmin123"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				</div>
+				<div id="summary_host_security_none_container" class="hidden">
+					<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_host_security_none" readonly="" class="text-text l" snapshot="None"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				</div>
+			<div class="form-prompt successed"><div class="bg"></div><div class="content"><span class="icon"></span><span class="text text-successed">Saved</span><span class="text text-failed">Failed</span></div></div></form>
+		</div>
+		<div class="settings-summary-container">
+			<p id="eap_extend_title" class="settings-summary-title">EAP Extended</p>
+			<form id="summary_extended_form" class="no-padding form-panel" enctype="application/x-www-form-urlencoded" method="POST" action="https://192.168.0.254/" target="_self">
+				<div id="summary_extended_container_2g">
+					<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">2.4GHz SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_extended_ssid_2g" name="extendNetworkSsid2g" readonly="" class="text-text xl" snapshot="PLDTHOMEFIBR 2.4 GHz"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					<div id="summary_extend_password_container_2g">
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_extended_password_2g" name="extendNetworkPassword2g" readonly="" class="text-text xl" snapshot="#PLDTadmin123"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					</div>
+					<div id="summary_extended_security_none_container_2g" class="hidden">
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_extended_security_none_2g" readonly="" class="text-text l" snapshot="None"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					</div>
+					<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">SSID Broadcast</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_extended_ssid_broadcast_2g" name="extendNetworkSsidBroadcast2g" readonly="" class="text-text xl" snapshot="On"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				</div>
+				<p id="summary_extended_off_2g" class="summary-extend-off hidden">2.4GHz Wireless Off</p>
+				<div class="separator"></div>
+				<div id="summary_extended_container_5g">
+					<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">5GHz SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_extended_ssid_5g" name="extendNetworkSsid5g" readonly="" class="text-text xl" snapshot="PLDTHOMEFIBR 5 GHz"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					<div id="summary_extend_password_container_5g">
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_extended_password_5g" name="extendNetworkPassword5g" readonly="" class="text-text xl" snapshot="#PLDTadmin123"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					</div>
+					<div id="summary_extended_security_none_container_5g" class="hidden">
+						<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_extended_security_none_5g" readonly="" class="text-text l" snapshot="None"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+					</div>
+					<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">SSID Broadcast</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="summary_extended_ssid_broadcast_5g" name="extendNetworkSsidBroadcast5g" readonly="" class="text-text xl" snapshot="On"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+				</div>
+				<p id="summary_extended_off_5g" class="summary-extend-off hidden">5GHz Wireless Off</p>
+			<div class="form-prompt successed"><div class="bg"></div><div class="content"><span class="icon"></span><span class="text text-successed">Saved</span><span class="text text-failed">Failed</span></div></div></form>
+		</div>
+	</div></div><div class="form-buttons-container"><div class="form-buttons-content"><div class="container widget-container button-container wizard-btn btn-prev"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-prev wizard-buttons button-button" data-name="repeaterSummary" data-step="6"><span class="text button-text">Back</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div><div class="container widget-container button-container wizard-btn btn-next"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button type="button" class="button-next wizard-buttons button-button" data-name="repeaterSummary" data-step="6"><span class="text button-text">Done</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div></div></div></div></div></div>
+
+		
+
+		
+
+		
+
+		
+
+		
+	</div>
+
+	<div id="ap-quick-setup-finish" class="quick-setup-finish hidden">
+		<div class="quick-setup-finish-title">
+			<span class="icon"></span>
+			<h1 id="ap-quick-setup-finish-title">Finish!</h1>
+		</div>
+		<p id="ap-quick-setup-finish-note" class="quick-setup-finish-note">Please connect to the following SSID to manage your device.</p>
+		<div class="quick-setup-finish-content">
+			<div id="ap-finish-ssid-display-label-2g" class="display-label l">
+				<span id="ssid-label-2g" class="label-text">2.4GHz SSID:</span>
+				<p id="ssid-value-2g" class="value-text"></p>
+			</div>
+			<div id="ap-finish-ssid-display-label-5g" class="display-label l">
+				<span id="ssid-label-5g" class="label-text">5GHz SSID:</span>
+				<p id="ssid-value-5g" class="value-text"></p>
+			</div>
+		</div>
+		<div class="container widget-container button-container"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button id="ap-quick-setup-finish-button" class="quick-setup-finish-button button-button"><span class="text button-text">I have connected to SSID</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+	</div>
+
+	
+
+	
+
+	<div id="repeater_quick_setup_finish" class="quick-setup-finish hidden">
+		<div class="quick-setup-finish-title">
+			<span id="repeater_quick_setup_finish_icon" class="icon" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAABGZJREFUWEfVmXtsU3UUx7/ndm/WlmUvqEOFMdQg+odz/4gGTTYTghkap4EE0YAEEZ+bxufGNhdfNL6IgRD/IAMNDHyHv0jgP7OKJsgc29gWtaXYPTK71m7ruPeY3x3t+lh7ezvK6v1z9zw+95ydx+9XQpKP+Wx2uSJP1xLhLgZbCLCAYVHNEZwMOAnkZMYvkiHzO3fl1EAyrkiPUum5/JKJKd9uBj8Mxu16dEHoItA3udl5+1x3eocS1U0IsPj34vwp32g9FG5gID9R43PJEeCFRHuz8wqtw6uHvVq2NAEX2wyPyKx8DqBUy5jO9y4DSbv+qZK/jqcXE5CZyXzW0MjMTWBofohOuBlxAhNRs7tSbiEijhHx6D+X2cty3c5LhwDUJeVYv1KH2XLDVscyx0SkalRkRORMNunodYQLMHWMVymPR0YyCtD0s9TECu/RH4T5a5BEe8bvVppDLYUBqgUB5XjK/ue0voHABkiPhhZOEFC0kknvSH8KqlULK/K9Kye/aGWgBQUBFzK1UYURkmoVUJ0Qk/8OzLcJ6w1VLHnRzHNzFpWLiaMCmmxSKzO/da0cxLNTmFGE0Ssjmq6IqHW8SmlUAY02Oq97tmq6CBfYWrwdjWXvoDizBO4rbux1tuHTv61gzNmfRRPv8lTxGprZSvyiOFL2CLAGyxth9rt9XajuvgcexRPTr2TIWknGTullgK2ponthyStovfH9MPMDk/148MK9GJp2abilejE1jjDz5lQAPlW8A58s3x9m+pLfgZrutbD7/9J0SURfktFGp8FYpymtU6CucBMOrmiHRFJQc2R6WI3cxcm+xKwRzpDJRr3MWBVPY2mmBdtLnkF5TgV6JrpxwPUZxuSxmCrrFz+EwxUnkEEZQRlRGOt71uG871xicGLZIfSRqZM88fqf2WDGr3f0qtUXeIanh1DbU4Ouid+inN1nvB8nbjmJbCk7+M4n+1DbW41O708JwwlB0Q8F4DgDxniajxVuVtNFNDu6BaRIV//kxaBq5aIqfH/rKeQbZpduv+JHXd8GnB4/pQvuKqAnoRQL4W0lO/HRzWKxnn0cU3bUXFgLh9+O1blrcPK2MyjIKAgKyCxjS38dfhz7VjecCihSrKdIXlz6KlqWvRfmTETw2cFtaK/oQEnm7KmAmbFz8El8NdqeFJyqNFMk+tpMU1kb6i2vazqt/2M3Dg6FR1xTKUJgps0k0aitN+3D06W7Yvprtr8J6+V39fLMIU/1SY+6AysOYVPRliijH1/+AI32164BHKCOOmEpmWVBgoTDFcexoWBjEOYL13689GfsyOqiDiwLQslkk1qY+W1dBgBkURaOrfoBD5ircXTkCHYMPhF7O9FpPGzdms/Cmifl4fklDfjQ2QYZsk6MucWjFlY1igt4movEDD3d/X8OTeIr0vrYGQjzQqZa8+AuINP+6kNApvXlUSDVaX39Flr2aXuBGQqZ1lfAoaBXL9GfY/BG3Qf9VF6izzWQrtfPEP8B4NwACgbo4IoAAAAASUVORK5CYII=&quot;);"></span>
+			<h1 id="repeater_quick_setup_finish_title">Finish!</h1>
+		</div>
+		<p id="repeater_quick_setup_finish_note" class="quick-setup-finish-note">Please connect to the extended network for AP management. </p>
+		<div class="quick-setup-finish-content">
+			<div id="repeater_finish_ssid_display_label_2g" class="display-label l">
+				<span id="repeater_ssid_label_2g" class="label-text">Extended 2.4Ghz SSID:</span>
+				<p id="repeater_ssid_value_2g" class="value-text"></p>
+			</div>
+			<p id="repeater_finish_2g_disable" class="finish_radio_disable hidden">2.4GHz Wireless Off</p>
+			<div id="repeater_finish_ssid_display_label_5g" class="display-label l">
+				<span id="repeater_ssid_label_5g" class="label-text">Extended 5Ghz SSID:</span>
+				<p id="repeater_ssid_value_5g" class="value-text"></p>
+			</div>
+			<p id="repeater_finish_5g_disable" class="finish_radio_disable hidden">5GHz Wireless Off</p>
+		</div>
+		<div class="container widget-container button-container"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button id="repeater_quick_setup_finish_button" class="quick-setup-finish-button button-button"><span class="text button-text">I have connected to extended network</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+	</div>
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	<!--  jquery框架加载  -->
+	<script type="text/javascript" src="https://192.168.0.254/js/libs/jquery.min.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/libs/md5.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/libs/netUtil.js"></script>
+	<!-- <script type="text/javascript" src="js/libs/jquery.extend.js"></script> -->
+	<!-- <script type="text/javascript" src="js/libs/jquery.cookies.min.js"></script> -->
+
+	<!--  语言部分加载  -->
+	<script id="lan-js" type="text/javascript" src="https://192.168.0.254/locale/en_US/lan.js"></script>
+	<link id="lan-css" type="text/css" rel="stylesheet" href="https://192.168.0.254/locale/en_US/lan.css">
+
+	<!--  引入框架代码， 最后需要统一到一个文件下面  -->
+	<script type="text/javascript" src="https://192.168.0.254/js/su/su.js"></script><div id="mask" class="mask" style="display: none;"></div>
+
+	<script type="text/javascript" src="https://192.168.0.254/js/su/data/proxy.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/data/store.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/data/treestore.js"></script>
+
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/widget.js"></script>
+
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/grid/grid.js"></script>
+
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/window/panel.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/window/page.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/window/msg.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/window/wizard.js"></script>
+
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/form.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/status.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/checkbox.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/combobox.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/textbox.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/button.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/progressbar.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/tip.js"></script>
+	<script type="text/javascript" src="https://192.168.0.254/js/su/widget/form/password.js"></script>
+
+
+
+<script type="text/javascript">
+$(document).ready(function(e){
+
+
+	var URL_SYSMODE = "./data/sysmod.json";
+	var URL_RESCAN_START = "./data/rescan.start.json";
+	var URL_RESCAN_STATE = "./data/rescan.state.json";
+	var URL_RESCAN_RESULT = "./data/rescan.result.json";
+	var URL_PRELINK_START = "./data/prelink.start.json";
+	var URL_PRELINK_STATE = "./data/prelink.state.json";
+	var DUT_MODE = {
+		BAND_24G: 0,
+		BAND_24G_5G: 1
+	};
+	var DEVICE_MODE = {
+		AP: 0,
+		REPEATER: 1
+	};
+	var BAND = {
+		BAND_24G: 0,
+		BAND_5G: 1
+	};
+	var CHECKBOX_ENABLE = {
+		ENABLE: 1,
+		DISABLE: 0
+	};
+	var SECURITY_MODE = {
+		NONE: 0,
+		WEP: 1,
+		WPA_PSK: 2,
+		WPA2_PSK: 3,
+		WPA_PSK_WPA2_PSK: 4,
+		WPA3_PERSONAL_WPA2_PSK: 5,
+		WPA3_PERSONAL: 6,
+		WPA_ENTERPRISE: 7
+	};
+	var SCAN_STATUS = {
+		INIT: 0,
+		SCANNING: 1,
+		LOAD_RESULT: 2
+	}
+
+	var SIGNAL_LEVELS_MAP_2G = {
+		1: {
+			min: -999,
+			max: -73
+		},
+		2: {
+			min: -73,
+			max: -50,
+		},
+		3: {
+			min: -50,
+			max: 9999
+		}
+	}
+	var SIGNAL_LEVELS_MAP_5G = {
+		1: {
+			min: -9999,
+			max: -75
+		},
+		2: {
+			min: -75,
+			max: -50,
+		},
+		3: {
+			min: -50,
+			max: 9999
+		}
+	};
+	var SECURITY_OPTIONS_WITHOUT_NONE = [
+		{"value": SECURITY_MODE.WPA_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK},
+		{"value": SECURITY_MODE.WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA2_PSK},
+		{"value": SECURITY_MODE.WPA_PSK_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK_WPA2_PSK, selected:"selected"},
+	];
+	var SECURITY_OPTIONS_WITHOUT_NONE_WITH_WPA3 = [
+		{"value": SECURITY_MODE.WPA_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK},
+		{"value": SECURITY_MODE.WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA2_PSK},
+		{"value": SECURITY_MODE.WPA_PSK_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK_WPA2_PSK, selected:"selected"},
+		{"value": SECURITY_MODE.WPA3_PERSONAL_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA3_PERSONAL_WPA2_PSK},
+		{"value": SECURITY_MODE.WPA3_PERSONAL, "name": $.su.CHAR.WIRELESS.WPA3_PERSONAL}
+	];
+	var SECURITY_OPTIONS = [
+		{"value": SECURITY_MODE.NONE, "name": $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE},
+		{"value": SECURITY_MODE.WPA_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK},
+		{"value": SECURITY_MODE.WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA2_PSK},
+		{"value": SECURITY_MODE.WPA_PSK_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK_WPA2_PSK, selected:"selected"},
+	];
+	var SECURITY_OPTIONS_WITH_WPA3 = [
+		{"value": SECURITY_MODE.NONE, "name": $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE},
+		{"value": SECURITY_MODE.WPA_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK},
+		{"value": SECURITY_MODE.WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA2_PSK},
+		{"value": SECURITY_MODE.WPA_PSK_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK_WPA2_PSK, selected:"selected"},
+		{"value": SECURITY_MODE.WPA3_PERSONAL_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA3_PERSONAL_WPA2_PSK},
+		{"value": SECURITY_MODE.WPA3_PERSONAL, "name": $.su.CHAR.WIRELESS.WPA3_PERSONAL}
+	];
+	var EXTEND_NETWORK_SECURITY_OPTIONS = [
+		{"value": SECURITY_MODE.NONE, "name": $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE},
+		{"value": SECURITY_MODE.WPA_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK},
+		{"value": SECURITY_MODE.WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA2_PSK},
+		{"value": SECURITY_MODE.WPA_PSK_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK_WPA2_PSK, selected:"selected"},
+		{"value": SECURITY_MODE.WPA3_PERSONAL_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA3_PERSONAL_WPA2_PSK},
+	];
+	var EXTEND_NETWORK_SECURITY_OPTIONS_WITHOUT_NONE = [
+		{"value": SECURITY_MODE.WPA_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK},
+		{"value": SECURITY_MODE.WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA2_PSK},
+		{"value": SECURITY_MODE.WPA_PSK_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA_PSK_WPA2_PSK, selected:"selected"},
+		{"value": SECURITY_MODE.WPA3_PERSONAL_WPA2_PSK, "name": $.su.CHAR.WIRELESS.WPA3_PERSONAL_WPA2_PSK},
+	];
+	var DEFAULT_SECURITY_MODE = SECURITY_MODE.WPA_PSK_WPA2_PSK;
+	var DEFAULT_PRELINK_QUERY_COUNT = 10;
+	var DEFAULT_WAIT_SECONDS = 2;
+	var PRELINK_PROCESS_RATIO = 0.5;
+	var CONFIGURING_PROCESS_RATIO = 1;
+	var PRIVACY_POLICY_URL = "./data/privacyPolicy.json";
+
+	var ENABLE_STATUS = {
+		ENABLE: 1,
+		DISABLE: 0
+	}
+
+	var privacyPolicyProxy = new $.su.Proxy({
+		url: PRIVACY_POLICY_URL
+	});
+
+	var wizardProxy = new $.su.Proxy({
+		url: "./data/wizard.json",
+		timeout: 30 * 1000
+	});
+
+	var rescanStartProxy = new $.su.Proxy({
+		url: URL_RESCAN_START,
+		type: "POST",
+		dataType: 'json'
+	});
+	
+	var rescanStateProxy = new $.su.Proxy({
+		url: URL_RESCAN_STATE,
+		type: "GET",
+		dataType: 'json'
+	});
+
+	var prelinkStartProxy = new $.su.Proxy({
+		url: URL_PRELINK_START
+	});
+
+	var prelinkStateProxy = new $.su.Proxy({
+		url: URL_PRELINK_STATE,
+		type: "GET",
+		dataType: 'json'
+	});
+
+	var ssidListStore = new $.su.Store({
+		proxy: {
+			url: URL_RESCAN_RESULT,
+			type: "GET"
+		},
+		fields: [
+			{name: "ssid"},
+			{name: "bSsid"},
+			{name: "securityMode"},
+			{name: "Signal"}
+		],
+		autoLoad: false
+	});
+		
+	var stepCode = 1;
+	var rescan_query_interval = null;
+	var rescan_query_count = 10;
+	var prelink_query_count = DEFAULT_PRELINK_QUERY_COUNT;
+	var oldDeviceMode = DEVICE_MODE.AP;
+	var selectedSsidData = {};
+	var clickedSsidData = {};
+	var waitIntervalFlag = null;
+
+	var timeZoneItem = [
+	  	{"value": "0", "name": $.su.CHAR.TIMESET.Eniwetok, index:120},
+		{"value": "60", "name": $.su.CHAR.TIMESET.Midway, index:110},
+		{"value": "120", "name": $.su.CHAR.TIMESET.Hawaii, index:100},
+		{"value": "180", "name": $.su.CHAR.TIMESET.Alaska, index:90},
+		{"value": "240", "name": $.su.CHAR.TIMESET.Pacific, index:80},
+		{"value": "300", "name": $.su.CHAR.TIMESET.Mountain, index:70},
+		{"value": "360", "name": $.su.CHAR.TIMESET.Central, index:60},
+		{"value": "420", "name": $.su.CHAR.TIMESET.Eastern, index:50},
+		// {"value": "450", "name": $.su.CHAR.TIMESET.Caracas, index:40},
+	  	{"value": "480", "name": $.su.CHAR.TIMESET.Atlantic, index:40},
+		{"value": "510", "name": $.su.CHAR.TIMESET.Newfoundland, index:35},
+		{"value": "540", "name": $.su.CHAR.TIMESET.Brasilia, index:30},
+		{"value": "600", "name": $.su.CHAR.TIMESET.MidAtlantic, index:20},
+		{"value": "660", "name": $.su.CHAR.TIMESET.Azores, index:10},
+		{"value": "720", "name": $.su.CHAR.TIMESET.Greenwich, index:0},
+
+		{"value": "780", "name": $.su.CHAR.TIMESET.Berlin, index:-10},
+		{"value": "840", "name": $.su.CHAR.TIMESET.Athens, index:-20},
+		{"value": "900", "name": $.su.CHAR.TIMESET.Baghdad, index:-30},
+		{"value": "930", "name": $.su.CHAR.TIMESET.Teheran, index:-35},
+		{"value": "960", "name": $.su.CHAR.TIMESET.Abu, index:-40},
+		{"value": "990", "name": $.su.CHAR.TIMESET.Kabul, index:-45},
+		{"value": "1020", "name": $.su.CHAR.TIMESET.Islamabad, index:-50},
+		{"value": "1050", "name": $.su.CHAR.TIMESET.Madras, index:-55},
+		{"value": "1065", "name": $.su.CHAR.TIMESET.Katmandu, index:-57.5},
+		{"value": "1080", "name": $.su.CHAR.TIMESET.Alma, index:-60},
+		{"value": "1110", "name": $.su.CHAR.TIMESET.Rangoon, index:-65},
+		{"value": "1140", "name": $.su.CHAR.TIMESET.Bangkok, index:-70},
+		{"value": "1200", "name": $.su.CHAR.TIMESET.Beijing, index:-80},
+		{"value": "1260", "name": $.su.CHAR.TIMESET.Tokyo, index:-90},
+		{"value": "1290", "name": $.su.CHAR.TIMESET.Adelaide, index:-95},
+		{"value": "1320", "name": $.su.CHAR.TIMESET.Brisbane, index:-100},
+		{"value": "1380", "name": $.su.CHAR.TIMESET.Magadan, index:-110},
+		{"value": "1440", "name": $.su.CHAR.TIMESET.Fiji, index:-120},
+		{"value": "1500", "name": $.su.CHAR.TIMESET.Nuku, index:-130}
+	];
+
+	function synPcClock()
+	{
+		var date = new Date();
+		var year =date.getFullYear();
+		var month=date.getMonth()+1;
+		month = month < 10 ? "0"+month : month;
+		var day=date.getDate();
+		day = day < 10 ? "0"+day : day;
+		var hour=date.getHours()<10?"0"+date.getHours():date.getHours();
+		var minute=date.getMinutes()<10?"0"+date.getMinutes():date.getMinutes();
+		var second=date.getSeconds()<10?"0"+date.getSeconds():date.getSeconds();
+
+		var d1 = (new Date(2019, 1, 1)).getTimezoneOffset();
+		var d2 = (new Date(2019, 6, 1)).getTimezoneOffset();
+		var localUtc;
+		parseInt(d1)>parseInt(d2)?localUtc=d1/6:localUtc=d2/6;
+		// var localUtc = d1.getTimezoneOffset()/6;
+		for(var e in timeZoneItem){
+			if( timeZoneItem[e].index == localUtc){
+				timeZoneStr = timeZoneItem[e].value;
+				break;
+			}else{
+				timeZoneStr = '720';
+			}
+		}
+
+		var dateStr = month+"/"+day+"/"+year;
+		var timeStr = hour+":"+minute+":"+second;
+
+		return [dateStr, timeStr, timeZoneStr];
+	}
+
+/////////////////////////// start quick setup
+
+	$('#text-quick-setup-title').html($.su.CHAR.WIZARD.QUICK_SETUP);
+	$('#text-quick-setup-note').html($.su.CHAR.WIZARD.QUICK_SETUP_NOTE);
+	$("#start-quick-setup-btn").button({
+		text: $.su.CHAR.WIZARD.START_QUICK_SETUP,
+		handler: function(){
+			$('#start-quick-setup').addClass('hidden');
+			$('#top-wrapper').removeClass('hidden');
+		}
+	})
+
+	$('#start-quick-setup').removeClass('hidden');
+
+/////////////////////////// quick setup step
+
+	var quickSetupWizard = $('div#quick-setup-wizard').wizard({
+		items: [{
+			name: "account",
+			content: "#wizard-step-account",
+			prevButton: false,
+			skipButton: false,
+			nextHandler: function () {
+				if( !$("input#wizard_account_username").textbox('validate')
+					|| !$("input#wizard_account_password").password('validate')
+					|| !$("input#wizard_account_confirm").password('validate') ){
+					return false;
+				}
+
+				if("ADMIN" == $("input#wizard_account_password").password('getValue').toUpperCase()) {
+					$("#wizard_account_password").password("setError", $.su.CHAR.WIZARD.PWD_IS_ADMIN);
+					return false;
+				}
+			}
+		}, {
+			name: "deviceMode",
+			content: "#wizard-step-device-mode",
+			skipButton: false,
+			nextHandler: function () {
+				var mode = $('#device-mode-radio').val();
+				if (mode == DEVICE_MODE.AP) {
+					quickSetupWizard.wizard("setShowItems", ["account", "deviceMode", "wirelessBasicSetting", "apSummary"]);
+				} else {
+					quickSetupWizard.wizard("setShowItems", ["account", "deviceMode", "repeaterSettings", "extendNetwork", "repeaterSummary"]);
+				}
+
+				if (oldDeviceMode != mode) {
+					oldDeviceMode = mode;
+					quickSetupWizard.wizard("goNext");
+					return false;
+				}
+
+				if (mode == DEVICE_MODE.REPEATER) {
+					switchScanStatus(SCAN_STATUS.INIT);
+				}
+			}
+		}, {
+			name: "wirelessBasicSetting",
+			content: "#wizard-step-wireless",
+			skipHandler: function () {
+				stepCode = 3;
+
+				$("#summary_device_account_form").form("loadData", {
+					summaryUserName: $("input#wizard_account_username").textbox('getValue'),
+					summaryPassword: $("input#wizard_account_password").password('getValue')
+				})
+
+				$('div#finish_2g').show();
+				if($.su.dutMode != DUT_MODE.BAND_24G){
+					$('div#finish_5g').show();
+				}
+
+				$('div#finish_password_2g_block').hide();
+				$('div#finish_password_5g_block').hide();
+				$('#finish_2g_disable').hide();
+				$('#finish_5g_disable').hide();
+
+				$('div#wizard_step_apply').show();
+				$('div#wizard_step_finish').hide();
+				$('div#finish_security_2g_block').show();
+				$('div#finish_security_5g_block').show();
+
+				
+				$.su.mask.show();
+				applyingProBar.progressbar("animate", 0, 1, 30*1000, function(){
+					$.su.mask.hide();
+					$('div#wizard_step_apply').hide();
+					$('div#wizard_step_finish').show();
+				});
+
+				wizardProxy.write(
+				{
+					operation: 'skip',
+					data: $.su.json.toJSONString({
+						account:{
+							newUserName: $("input#wizard_account_username").textbox('getValue'),
+							newPwd: md5($("input#wizard_account_password").password('getValue')).toUpperCase(),
+							confirmPwd: md5($("input#wizard_account_confirm").password('getValue')).toUpperCase()
+						},
+						sysmode: getSysMode(),
+						privacyPolicy: getPrivacyPolicy(),
+						date: synPcClock()[0],
+						time: synPcClock()[1],
+						timeZone: synPcClock()[2]
+					})
+				}, function(result){
+					// location.href = 'index.html';
+					applyingProBar.progressbar("stop");
+					applyingProBar.progressbar("animate", applyingProBar.progressbar("getValue"), 1, 3000, function(){
+						$.su.mask.hide();
+						$('div#wizard_step_apply').hide();
+						$('div#wizard_step_finish').show();
+					});
+
+					if(result[0].radioID == 0){
+						$("input#finish_ssid_2g").textbox("setValue", result[0].ssid);
+						$("input#finish_ssid_5g").textbox("setValue", result[1].ssid);
+					}else{
+						$("input#finish_ssid_2g").textbox("setValue", result[1].ssid);
+						$("input#finish_ssid_5g").textbox("setValue", result[0].ssid);
+					}
+				});
+			},
+			nextHandler: function () {
+				$('div#finish_security_2g_block').hide();
+				$('div#finish_security_5g_block').hide();
+
+				if ($.su.dutMode == DUT_MODE.BAND_24G) {
+					if (wirelessEnable2g.checkbox('getValue').length == 0) {
+						$("div#errorMsg").msg('show');
+						return false;
+					}
+				} else {
+					if (wirelessEnable2g.checkbox('getValue').length == 0
+						&& wirelessEnable5g.checkbox('getValue').length == 0) {
+						$("div#errorMsg").msg('show');
+						return false;
+					}
+				}
+
+				stepCode = 3;
+
+				var ssid_2g = $("input#wireless_ssid_2g").textbox('getValue');
+				var passwd_2g = $("input#wireless_password_2g").textbox('getValue');
+
+				if ("wireless_enable_2g" == $("input#wireless_enable_2g").checkbox('getValue')) {
+					$('#finish_2g_disable').hide();
+					$('#finish_2g').show();
+
+					if ("" == ssid_2g) {
+						$("input#wireless_ssid_2g").textbox("setError", $.su.CHAR.BLANKTEXT);
+						return false;
+					} else if ($.su.unicode.getUtf8Length(ssid_2g) > 32) {
+						$("input#wireless_ssid_2g").textbox("setError", $.su.CHAR.INVALIDTEXT);
+						return false;
+					} else if ("" == passwd_2g) {
+						$("input#wireless_password_2g").textbox("setError", $.su.CHAR.BLANKTEXT);
+						return false;
+					} else if (checkWlPwd(passwd_2g) !== true) {
+						$("input#wireless_password_2g").textbox("setError", checkWlPwd(passwd_2g));
+						return false;
+					}
+					$("input#finish_ssid_2g").textbox("setValue", ssid_2g);
+					//$("input#finish_password_2g").textbox("setValue", passwd_2g);
+					$('p#finish_password_2g').text(passwd_2g);
+				} else {
+					$('#finish_2g_disable').show();
+					$('#finish_2g').hide();
+				}
+
+				var ssid_5g = $("input#wireless_ssid_5g").textbox('getValue');
+				var passwd_5g = $("input#wireless_password_5g").textbox('getValue');
+
+				if ($.su.dutMode != DUT_MODE.BAND_24G) {
+					if ("wireless_enable_5g" == $("input#wireless_enable_5g").checkbox('getValue')) {
+						$('#finish_5g_disable').hide();
+						$('#finish_5g').show();
+
+						if ("" == ssid_5g) {
+							$("input#wireless_ssid_5g").textbox("setError", $.su.CHAR.BLANKTEXT);
+							return false;
+						} else if ($.su.unicode.getUtf8Length(ssid_5g) > 32) {
+							$("input#wireless_ssid_5g").textbox("setError", $.su.CHAR.INVALIDTEXT);
+							return false;
+						} else if ("" == passwd_5g) {
+							$("input#wireless_password_5g").textbox("setError", $.su.CHAR.BLANKTEXT);
+							return false;
+						} else if (checkWlPwd(passwd_5g) !== true) {
+							$("input#wireless_password_5g").textbox("setError", checkWlPwd(passwd_5g));
+							return false;
+						}
+						$("input#finish_ssid_5g").textbox("setValue", ssid_5g);
+						// $("input#finish_password_5g").textbox("setValue", passwd_5g);
+						$('p#finish_password_5g').text(passwd_5g);
+					} else {
+						$('#finish_5g_disable').show();
+						$('#finish_5g').hide();
+					}
+				} else {
+					$('#finish_5g_disable').hide();
+					$('#finish_5g').hide();
+				}
+				
+				$("#summary_device_account_form").form("loadData", {
+					summaryUserName: $("input#wizard_account_username").textbox('getValue'),
+					summaryPassword: $("input#wizard_account_password").password('getValue')
+				})
+
+				$('div#finish_password_2g_block').hide();
+				$('div#finish_password_5g_block').hide();
+
+				$('div#wizard_step_apply').show();
+				$('div#wizard_step_finish').hide();
+				$('div#finish_password_2g_block').show();
+				$('div#finish_password_5g_block').show();
+
+				
+				$.su.mask.show();
+				applyingProBar.progressbar("animate", 0, 1, 30*1000, function(){
+					$.su.mask.hide();
+					$('div#wizard_step_apply').hide();
+					$('div#wizard_step_finish').show();
+				});
+
+				var wlanData;
+				if ($.su.dutMode == DUT_MODE.BAND_24G) {
+					wlanData = [{
+						radioID: 0,
+						enable: $("input#wireless_enable_2g").checkbox('getValue').length > 0 ? true : false,
+						ssid: $("input#wireless_ssid_2g").textbox('getValue'),
+						password: $("input#wireless_password_2g").textbox('getValue')
+					}];
+				} else {
+					wlanData = [{
+						radioID: 0,
+						enable: $("input#wireless_enable_2g").checkbox('getValue').length > 0 ? true : false,
+						ssid: $("input#wireless_ssid_2g").textbox('getValue'),
+						password: $("input#wireless_password_2g").textbox('getValue')
+					}, {
+						radioID: 1,
+						enable: $("input#wireless_enable_5g").checkbox('getValue').length > 0 ? true : false,
+						ssid: $("input#wireless_ssid_5g").textbox('getValue'),
+						password: $("input#wireless_password_5g").textbox('getValue')
+					}];
+				}
+
+				wizardProxy.write({
+					operation: 'set',
+					data: $.su.json.toJSONString({
+						account:{
+							newUserName: $("input#wizard_account_username").textbox('getValue'),
+							newPwd: md5($("input#wizard_account_password").password('getValue')).toUpperCase(),
+							confirmPwd: md5($("input#wizard_account_confirm").password('getValue')).toUpperCase()
+						},
+						sysmode: getSysMode(),
+						wlan: wlanData,
+						privacyPolicy: getPrivacyPolicy(),
+						date: synPcClock()[0],
+						time: synPcClock()[1],
+						timeZone: synPcClock()[2]
+					})
+				}, function(){
+					// location.href = 'index.html';
+					applyingProBar.progressbar("stop");
+					applyingProBar.progressbar("animate", applyingProBar.progressbar("getValue"), 1, 3000, function(){
+						$.su.mask.hide();
+						$('div#wizard_step_apply').hide();
+						$('div#wizard_step_finish').show();
+					});
+				});
+			}
+		}, {
+			name: "apSummary",
+			content: "#wizard-step-ap-summary",
+			skipButton: false,
+			nextButtonText: $.su.CHAR.OPERATION.DONE,
+			nextHandler: function () {
+				var ssid_2g = $("input#finish_ssid_2g").textbox('getValue');
+				var ssid_5g = $("input#finish_ssid_5g").textbox('getValue');
+				if (ssid_2g) {
+					$("#ssid-value-2g").text(ssid_2g);
+					$("#ap-finish-ssid-display-label-2g").show();
+				} else {
+					$("#ap-finish-ssid-display-label-2g").hide();
+				}
+				if (ssid_5g && $.su.dutMode == DUT_MODE.BAND_24G_5G) {
+					$("#ssid-value-5g").text(ssid_5g);
+					$("#ap-finish-ssid-display-label-5g").show();
+				} else {
+					$("#ap-finish-ssid-display-label-5g").hide();
+				}
+
+				$('#top-wrapper').addClass('hidden');
+				$('#ap-quick-setup-finish').removeClass("hidden");
+
+			}
+		}, {
+			name: "repeaterSettings",
+			content: "#wizard_step_repeater_settings",
+			skipButton: false,
+			nextHandler: function () {
+				var defaultExtendSsid2g = selectedSsidData.ssid;
+				var defaultExtendSsid5g = selectedSsidData.ssid;
+
+				var repeaterBasicSettingsData = $("#repeater_basic_settings_form").form("serialize");
+				if (repeaterBasicSettingsData.radioID == BAND.BAND_24G) {
+					defaultExtendSsid5g += "_" + $.su.CHAR.WIZARD.G_5;
+				} else {
+					defaultExtendSsid2g += "_" + $.su.CHAR.WIZARD.G_24;
+				}
+				defaultExtendSsid2g += "_" + $.su.CHAR.WIZARD.EXT;
+				defaultExtendSsid5g += "_" + $.su.CHAR.WIZARD.EXT;
+
+				$("#extend_network_form_2g").form("loadData", $.extend({}, selectedSsidData, {
+					extendNetworkSsid: defaultExtendSsid2g,
+					securityMode: selectedSsidData.securityMode == SECURITY_MODE.NONE ? SECURITY_MODE.NONE : DEFAULT_SECURITY_MODE
+				}));
+
+				$("#extend_network_form_5g").form("loadData", $.extend({}, selectedSsidData, {
+					extendNetworkSsid: defaultExtendSsid5g,
+					securityMode: selectedSsidData.securityMode == SECURITY_MODE.NONE ? SECURITY_MODE.NONE : DEFAULT_SECURITY_MODE
+				}));
+			}
+		}, {
+			name: "extendNetwork",
+			content: "#wizard_step_extend_network",
+			skipButton: false,
+			nextHandler: function () {
+				var extendNetworkFormData2g = $("#extend_network_form_2g").form("serialize");
+				var extendNetworkFormData5g = $("#extend_network_form_5g").form("serialize");
+
+				var noEnableBand = true;
+				if ($.su.dutMode == DUT_MODE.BAND_24G) {
+					noEnableBand = extendNetworkFormData2g.extendNetworkEnable != CHECKBOX_ENABLE.ENABLE;
+				} else {
+					noEnableBand = extendNetworkFormData2g.extendNetworkEnable != CHECKBOX_ENABLE.ENABLE && extendNetworkFormData5g.extendNetworkEnable != CHECKBOX_ENABLE.ENABLE;
+				}
+				if (noEnableBand) {
+					$("div#errorMsg").msg('show');
+					return false;
+				}
+				
+				var extendNetworkCopyDisable2g = extendNetworkFormData2g.extendNetworkEnable == CHECKBOX_ENABLE.ENABLE && extendNetworkFormData2g.extendNetworkCopyEnable != CHECKBOX_ENABLE.ENABLE;
+				if (extendNetworkCopyDisable2g) {
+					if (!$("#extend_network_ssid_2g").textbox("validate")) {
+						return false;
+					}
+					if (extendNetworkFormData2g.extendNetworkSecurity != SECURITY_MODE.NONE && 
+						!$("#extend_network_password_2g").textbox("validate")) {
+							return false;
+						}
+				} else if (extendNetworkFormData2g.extendNetworkEnable == CHECKBOX_ENABLE.ENABLE && extendNetworkFormData2g.extendNetworkCopyEnable == CHECKBOX_ENABLE.ENABLE) {
+					var hostSsidNoneSecurity2g = extendNetworkFormData2g.extendNetworkCopySecurity == SECURITY_MODE.NONE && !extendNetworkFormData2g.extendNetworkCopyPassword;
+					if (!hostSsidNoneSecurity2g && !$("#copy_security_2g").combobox("validate")) {
+						$("#copy_security_2g").combobox("setError");
+						return false;
+					}
+				}
+				if ($.su.dutMode != DUT_MODE.BAND_24G) {
+					var extendNetworkCopyDisable5g = extendNetworkFormData5g.extendNetworkEnable == CHECKBOX_ENABLE.ENABLE && extendNetworkFormData5g.extendNetworkCopyEnable != CHECKBOX_ENABLE.ENABLE
+					if (extendNetworkCopyDisable5g) {
+						if (!$("#extend_network_ssid_5g").textbox("validate")) {
+							return false;
+						}
+						if (extendNetworkFormData5g.extendNetworkSecurity != SECURITY_MODE.NONE && 
+							!$("#extend_network_password_5g").textbox("validate")) {
+							return false;
+						}
+					} else if (extendNetworkFormData5g.extendNetworkEnable == CHECKBOX_ENABLE.ENABLE && extendNetworkFormData5g.extendNetworkCopyEnable == CHECKBOX_ENABLE.ENABLE) {
+						var hostSsidNoneSecurity5g = extendNetworkFormData5g.extendNetworkCopySecurity == SECURITY_MODE.NONE && !extendNetworkFormData5g.extendNetworkCopyPassword;
+						if (!hostSsidNoneSecurity5g && !$("#copy_security_5g").combobox("validate")) {
+							$("#copy_security_5g").combobox("setError");
+							return false;
+						}
+					}
+				}
+
+				$("#repeater_summary_device_account_form").form("loadData", {
+					summaryUserName: $("input#wizard_account_username").textbox('getValue'),
+					summaryPassword: $("input#wizard_account_password").password('getValue')
+				})
+
+				var extendNetworkFormData = {
+					extendNetworkEnable2g: extendNetworkFormData2g.extendNetworkEnable,
+					extendNetworkSsidBroadcast2g: extendNetworkFormData2g.extendNetworkSsidBroadcast,
+					extendNetworkEnable5g: extendNetworkFormData5g.extendNetworkEnable,
+					extendNetworkSsidBroadcast5g: extendNetworkFormData5g.extendNetworkSsidBroadcast,
+				};
+
+				if (extendNetworkFormData2g.extendNetworkCopyEnable == CHECKBOX_ENABLE.ENABLE) {
+					$.extend(extendNetworkFormData, {
+						extendNetworkSsid2g: extendNetworkFormData2g.extendNetworkCopySsid,
+						extendNetworkSecurity2g: extendNetworkFormData2g.extendNetworkCopySecurity,
+						extendNetworkPassword2g: extendNetworkFormData2g.extendNetworkCopyPassword
+					})
+				} else {
+					$.extend(extendNetworkFormData, {
+						extendNetworkSsid2g: extendNetworkFormData2g.extendNetworkSsid,
+						extendNetworkSecurity2g: extendNetworkFormData2g.extendNetworkSecurity,
+						extendNetworkPassword2g: extendNetworkFormData2g.extendNetworkPassword
+					})
+				}
+				if (extendNetworkFormData5g.extendNetworkCopyEnable == CHECKBOX_ENABLE.ENABLE) {
+					$.extend(extendNetworkFormData, {
+						extendNetworkSsid5g: extendNetworkFormData5g.extendNetworkCopySsid,
+						extendNetworkSecurity5g: extendNetworkFormData5g.extendNetworkCopySecurity,
+						extendNetworkPassword5g: extendNetworkFormData5g.extendNetworkCopyPassword
+					})
+				} else {
+					$.extend(extendNetworkFormData, {
+						extendNetworkSsid5g: extendNetworkFormData5g.extendNetworkSsid,
+						extendNetworkSecurity5g: extendNetworkFormData5g.extendNetworkSecurity,
+						extendNetworkPassword5g: extendNetworkFormData5g.extendNetworkPassword
+					})
+				}
+
+				$("#summary_host_form").form("loadData", selectedSsidData);
+				$("#summary_extended_form").form("loadData", extendNetworkFormData);
+			}
+		}, {
+			name: "repeaterSummary",
+			content: "#wizard_step_repeater_summary",
+			skipButton: false,
+			nextButtonText: $.su.CHAR.OPERATION.DONE,
+			nextHandler: function () {
+				startPrelinkSsid();
+
+				return false;
+			}
+		}]
+	});
+
+	$("#wizard-step-account").removeClass("hidden");
+	$("#wizard-step-device-mode").removeClass("hidden");
+	$("#wizard-step-wireless").removeClass("hidden");
+	$("#wizard-step-ap-summary").removeClass("hidden");
+	$("#wizard_step_repeater_settings").removeClass("hidden");
+	$("#wizard_step_extend_network").removeClass("hidden");
+	$("#wizard_step_repeater_summary").removeClass("hidden");
+
+
+	// 默认显示有4步，在选择设备模式时根据选择ap或者repeater模式调整步骤条
+	quickSetupWizard.wizard("setShowItems", ["account", "deviceMode", "wirelessBasicSetting", "apSummary"]);
+
+/////////////////////////// select mode
+
+	$('#selected-device-mode-title').html($.su.CHAR.WIZARD.SELECTED_DEVICE_MODE);
+	$('#ap-mode-title').html($.su.CHAR.WIZARD.AP_MODE);
+	$('#ap-mode-note').html($.su.CHAR.WIZARD.AP_MODE_NOTE);
+	$('#repeater-mode-title').html($.su.CHAR.WIZARD.REPEATER_MODE);
+	$('#repeater-mode-note').html($.su.CHAR.WIZARD.REPEATER_MODE_NOTE);
+
+	selectedDiveceMode(DEVICE_MODE.AP);
+
+	$('#ap-mode .selected-icon').click(function () {
+		selectedDiveceMode(DEVICE_MODE.AP);
+	})
+	$('#ap-mode .mode-selected-container').click(function () {
+		selectedDiveceMode(DEVICE_MODE.AP);
+	})
+
+	$('#repeater-mode .selected-icon').click(function () {
+		selectedDiveceMode(DEVICE_MODE.REPEATER);
+	})
+	$('#repeater-mode .mode-selected-container').click(function () {
+		selectedDiveceMode(DEVICE_MODE.REPEATER);
+	})
+
+	function selectedDiveceMode (mode) {
+		$('#device-mode-radio').val(mode);
+		if (mode === DEVICE_MODE.AP) {
+			$('#ap-mode').addClass('selected');
+			$('#repeater-mode').removeClass('selected');
+		} else {
+			$('#ap-mode').removeClass('selected');
+			$('#repeater-mode').addClass('selected');
+		}
+	}
+
+/////////////////////////// account
+
+	$('p#text_new_account').html($.su.CHAR.WIZARD.SETUP_ACCOUNT);
+
+	$("input#wizard_account_username").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.NEW_USERNAME,
+		allowBlank:false,
+		_maxLength: 64,
+		_minLength: 1,
+		vtype:"string_visible_allow_blank"
+	});
+
+	$("input#wizard_account_password").password({
+		fieldLabel: $.su.CHAR.WIZARD.NEW_PASSWORD,
+		allowBlank:false,
+		_minLength: 0,
+		_maxLength: 64,
+		allowVisible: true,
+		vtype:"ascii_visible",
+		validator:function(val){
+			var confirm_pwd = $("input#wizard_account_confirm").password("getValue");
+			if (confirm_pwd !== '') {
+				$("input#wizard_account_confirm").password('validate');
+			}
+			return true;
+		}
+	});
+
+	$("input#wizard_account_confirm").password({
+		fieldLabel: $.su.CHAR.WIZARD.CONFIRM_PASSWORD,
+		showLevel: false,
+		allowBlank: false,
+		allowVisible: true,
+		cls: "inline-block",
+		_minLength: 0,
+		_maxLength: 64,
+		vtype:"ascii_visible",
+		validator:function(val){
+			var new_pwd = $("input#wizard_account_password").password("getValue");
+			
+			/*this line is for bug62646*/
+			$("input#wizard_account_confirm").password("setValue", val);
+
+			if(val == new_pwd)
+			{
+				$("#wizard_account_status").status("setSuccess");
+				return true;
+			}
+			else
+			{				
+				// $("input#wizard_account_confirm").textbox('setError', $.su.CHAR.WIZARD.PWD_NOT_MATCH);
+				$("#wizard_account_status").status("setFailed");
+				return false;
+			}
+		}
+				
+	});
+
+	$("#wizard_account_status").status({
+		cls:"inline"
+	});
+
+	$("p#allow-data-collection-note").html($.su.CHAR.INDEX.ALLOW_DATA_COLLECTION_NOTE);
+
+	$("#allow-data-collection-tip").tip({
+		cls: "",
+		positionRelative: "me",
+		content: "#allow-data-collection-note",
+		showDelay: 100,
+		position: {
+			pageX: -10,
+			pageY: 20
+		},
+	});
+
+	$("input#allow-data-collection").checkbox({
+		fieldLabel: $.su.CHAR.INDEX.ALLOW_DATA_COLLECTION,
+		labelCls: 'm',
+		cls: "allow-data-collection",
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: ENABLE_STATUS.ENABLE, uncheckedValue: ENABLE_STATUS.DISABLE}
+		]
+	})
+
+	function getPrivacyPolicy () {
+		var dataCollectionEnable = $("input#allow-data-collection").checkbox('getValue').length > 0;
+
+		return dataCollectionEnable
+	}
+
+/////////////////////////// wireless
+
+	function WPAPSK_key_invalid(pwd)
+	{
+	    var c;
+	    var zeronum = 0;
+	    var is_Hex = 0;
+	    var ch = "0123456789ABCDEFabcdefGHIJKLMNOPQRSTUVWXYZghijklmnopqrstuvwxyz`~!@#$^&*()-=_+[]{};:\'\"\\|/?.,<>/% ";
+	    var hexch = ch.substring(0, 22);
+	    for (var i = 0; i < pwd.length; i++)
+	    {
+	    	c = pwd.charAt(i);
+	    	if (hexch.indexOf(c) == -1)
+	    	{
+	    		break;
+	    	}
+	    }
+	    if(i == pwd.length)
+	    {
+	    	is_Hex = 1;
+	    }
+	    if (is_Hex == 1) 
+	        ch = ch.substring(0, 22);
+	    for (var i = 0; i < pwd.length; i++) {
+	        c = pwd.charAt(i);
+	        if (ch.indexOf(c) == -1) 
+	            return false;
+	    }
+	    if ((pwd.length < 8 || pwd.length > 63) && (is_Hex == 1) )
+	            return false;
+	    if ((pwd.length < 8 || pwd.length > 63) && (is_Hex == 0) )
+	            return false;
+	    return true;
+	}
+
+	$('p#text_wireless_settings').html($.su.CHAR.WIZARD.SETUP_WIRELESS_REPEATER);
+
+	var wirelessEnable2g = $("input#wireless_enable_2g").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.ENABLE_WIRELESS_2,
+		labelCls: 'l',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: "on", uncheckedValue:"off", checked:true}
+		]
+	}).on('ev_change', function(e, oldValue, newValue){
+		/*if(	wirelessEnable2g.checkbox('getValue').length==0
+			&& wirelessEnable5g.checkbox('getValue').length==0){
+			wirelessEnable2g.checkbox('setValue', 'on');
+			return false;
+		}*/
+		if("wireless_enable_2g" == newValue || "on" == newValue)
+		{
+			$("input#wireless_ssid_2g").textbox("enable");
+			$("input#wireless_password_2g").textbox("enable");
+		}
+		else
+		{
+			$("input#wireless_ssid_2g").textbox("setNormal");
+			$("input#wireless_password_2g").textbox("setNormal");
+			$("input#wireless_ssid_2g").textbox("disable");
+			$("input#wireless_password_2g").textbox("disable");
+		}
+	});
+
+	$("input#wireless_ssid_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 'l',
+		maxLength: 32,
+    	vtype:"wlanssid"
+	});
+
+	$("input#wireless_password_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 'l',
+		maxLength: 63,
+		autoTrim: false,
+		validator:function(val){			
+			if(val.length > $.trim(val).length){
+				return $.su.CHAR.WIRELESS.PASSWORD_SPACE_TIP;
+			}
+			if(WPAPSK_key_invalid(val.toString()))
+			{
+				return true;
+			}
+			else
+			{
+				return $.su.CHAR.WIZARD.ERROR_TIP;
+			}
+		}
+	});
+
+	var wirelessEnable5g = $("input#wireless_enable_5g").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.ENABLE_WIRELESS_5,
+		labelCls: 'l',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: "on", uncheckedValue:"off", checked:true}
+		]
+	}).on('ev_change', function(e, oldValue, newValue){
+		/*if(	wirelessEnable2g.checkbox('getValue').length==0
+			&& wirelessEnable5g.checkbox('getValue').length==0){
+			wirelessEnable5g.checkbox('setValue', 'on');
+			return false;
+		}*/
+		if("wireless_enable_5g" == newValue || "on" == newValue)
+		{
+			$("input#wireless_ssid_5g").textbox("enable");
+			$("input#wireless_password_5g").textbox("enable");
+		}
+		else
+		{
+			$("input#wireless_ssid_5g").textbox("setNormal");
+			$("input#wireless_password_5g").textbox("setNormal");
+			$("input#wireless_ssid_5g").textbox("disable");
+			$("input#wireless_password_5g").textbox("disable");
+		}
+	});
+
+	$("input#wireless_ssid_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 'l',
+		maxLength: 32,
+    	vtype:"wlanssid"
+	});
+
+	$("input#wireless_password_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 'l',
+		maxLength: 63,
+		autoTrim: false,
+		validator:function(val){			
+			if(val.length > $.trim(val).length){
+				return $.su.CHAR.WIRELESS.PASSWORD_SPACE_TIP;
+			}
+			if(WPAPSK_key_invalid(val.toString()))
+			{
+				return true;
+			}
+			else
+			{
+				return $.su.CHAR.WIZARD.ERROR_TIP;
+			}
+		}
+	});
+	
+	function checkWlPwd(val){				
+		if(val.length > $.trim(val).length){
+			return $.su.CHAR.WIRELESS.PASSWORD_SPACE_TIP;
+		}
+		if(!WPAPSK_key_invalid(val.toString()))
+		{
+			return $.su.CHAR.WIZARD.ERROR_TIP;
+		}
+		return true;
+	}
+
+
+/////////////////////////// applying
+	
+	$('p#text_applying').html($.su.CHAR.WIZARD.APPLYING);
+	
+	var applyingProBar  = $('input#wizard_applying_pro').progressbar({
+		fieldLabel: null,
+		cls: 'inline',
+		width: 460,
+		height: 4,
+		value: 0
+	});	
+
+
+/////////////////////////// ap summary
+	$('#ap-summary-title').html($.su.CHAR.WIZARD.SUMMARY);
+	$('#ap-summary-note').html($.su.CHAR.WIZARD.CONFIRM_SETTINGS);
+	$("#device_account_title").html($.su.CHAR.WIZARD.DEVICE_ACCOUNT);
+	$('p#text_finish_2g').html($.su.CHAR.WIZARD.FINISH_2G_TITLE);
+	$('p#text_finish_5g').html($.su.CHAR.WIZARD.FINISH_5G_TITLE);
+	$('p#finish_2g_disable').html($.su.CHAR.WIZARD.FINISH_2G_DISABLE);
+	$('p#finish_5g_disable').html($.su.CHAR.WIZARD.FINISH_5G_DISABLE);
+
+	$("#summary_device_account_form").form({
+		fields: [
+			{name: "summaryUserName"},
+			{name: "summaryPassword"}
+		],
+	})
+
+	$("input#finish_ssid_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 's',
+		readOnly: true,
+		labelCls: 's-160',
+		inputCls: 'xl'
+	});
+
+	$('#finish_password_2g_label').html($.su.CHAR.WIZARD.PASSWORD+':');
+	$('#finish_security_2g_label').html($.su.CHAR.WIRELESS.WIRELESS_SSID_SEC+':');
+	$('#finish_security_2g').html($.su.CHAR.WIRELESS.WIRELESS_SEC_NONE);
+
+	$("#summary_user_name").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.USERNAME,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#summary_password").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	
+	/*$("input#finish_password_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 's',
+		readOnly: true,
+		labelCls: 's-160',
+		inputCls: 'xxxxl'
+	});*/
+
+	$("input#finish_ssid_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 's',
+		readOnly: true,
+		labelCls: 's-160',
+		inputCls: 'xl'
+	});
+
+	$('#finish_password_5g_label').html($.su.CHAR.WIZARD.PASSWORD+':');
+	$('#finish_security_5g_label').html($.su.CHAR.WIRELESS.WIRELESS_SSID_SEC+':');
+	$('#finish_security_5g').html($.su.CHAR.WIRELESS.WIRELESS_SEC_NONE);
+
+	/*$("input#finish_password_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 's',
+		readOnly: true,
+		labelCls: 's-160',
+		inputCls: 'xxxxl'
+	});*/
+
+/////////////////////////// ap finish
+
+	$("#ap-quick-setup-finish-title").html($.su.CHAR.WIZARD.FINISH);
+	$("#ap-quick-setup-finish-note").html($.su.CHAR.WIZARD.AP_FINISH_NOTE);
+	$("#ssid-label-2g").html($.su.CHAR.WIZARD.AP_SSID_LABEL_2G + ":");
+	$("#ssid-label-5g").html($.su.CHAR.WIZARD.AP_SSID_LABEL_5G + ":");
+
+	$("#ap-quick-setup-finish-button").button({
+		text: $.su.CHAR.WIZARD.AP_FINISH_BUTTON,
+		handler: function(){
+			location.href = 'index.html';
+		}
+	})
+
+/////////////////////////// repeater settings
+	$("#repeater_settings_title").html($.su.CHAR.WIZARD.REPEATER_SETTINGS);
+	$("#repeater_settings_note").html($.su.CHAR.WIZARD.REPEATER_SETTINGS_NOTE);
+	$("#channel_limit_note").html($.su.CHAR.WIZARD.CHANNEL_LIMIT_NOTE);
+	$("#ssid_scan_label").html($.su.CHAR.WIZARD.SSID + ":");
+	$("#channel_limit_tip_title").html($.su.CHAR.WIZARD.CHANNEL_LIMIT_TIP_TITLE);
+	$("#channel_limit_tip").html($.su.CHAR.WIZARD.CHANNEL_LIMIT_TIP);
+	$("#ssid_password_title").html($.su.CHAR.WIZARD.ENTER_PASSWORD);
+	$("#other_ssid_text").html($.su.CHAR.WIZARD.OTHER);
+	$("#other_network_title").html($.su.CHAR.WIZARD.OTHER_NETWORK);
+	$("#other_network_tip").html($.su.CHAR.WIZARD.OTHER_NETWORK_TIP);
+	$("#search_network_text").html($.su.CHAR.WIZARD.SEARCH_NETWORK_TEXT);
+	$("#empty_ssid_list_text").html($.su.CHAR.WIZARD.EMPTY_SSID_TEXT);
+	$("#scanning_ssid_text").html($.su.CHAR.WIZARD.SCANNING_TEXT);
+
+	$("#repeater_basic_settings_form").form({
+		fields: [
+			{name: "radioID"},
+			{name: "channelLimit"}
+		]
+	})
+
+	$("#repeater_settings_radio").combobox({
+		fieldLabel: $.su.CHAR.WIZARD.BAND,
+		inputCls: "xl",
+		allowBlank: false,
+		items:[
+			{name: $.su.CHAR.WIZARD.BAND_24G, value: BAND.BAND_24G},
+			{name: $.su.CHAR.WIZARD.BAND_5G, value: BAND.BAND_5G, selected:true}
+		],
+	}).on("ev_change", function(e, oldValue, newValue){
+		if(newValue[0] == BAND.BAND_24G || $.su.support_channelLimit != "1") {
+			$("#channel_limit_container").addClass("hidden");
+		} else {
+			$("#channel_limit_container").removeClass("hidden");
+		}
+		switchScanStatus(SCAN_STATUS.INIT);
+	});
+
+	$("#repeater_settings_channel_limit").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.CHANNEL_LIMIT,
+		labelCls: 'm',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: CHECKBOX_ENABLE.ENABLE, uncheckedValue: CHECKBOX_ENABLE.DISABLE, checked:false}
+		]
+	}).on("ev_change", function () {
+		switchScanStatus(SCAN_STATUS.INIT);
+	});
+	$("#repeater_settings_channel_limit").closest("div.checkbox-group-container").undelegate("label.checkbox-label", "click");
+	$("#repeater_settings_channel_limit").closest("div.checkbox-group-container").delegate("label.checkbox-label", "click", function(e){
+		e.preventDefault();
+		var label = $(this),
+			li = label.closest("li.checkbox-list");
+
+		if (li.hasClass("disabled")){
+			return;
+		}
+		var val = $("#repeater_settings_channel_limit").checkbox("getValue");
+		if (val[0] == "channelLimit" || val[0] == CHECKBOX_ENABLE.ENABLE) {
+			$("#repeater_settings_channel_limit").checkbox("setValue", CHECKBOX_ENABLE.DISABLE);
+		} else {
+			$("#channel_limit_msg").msg("show");
+		}
+	})
+
+	$("#refresh_ssid_button").button({
+		text: $.su.CHAR.WIZARD.SCAN,
+		cls: "scan-button",
+		handler: function(){
+			startScan();
+		}
+	})
+
+	function startScan () {
+		var repeaterBasicSettings = $("#repeater_basic_settings_form").form("serialize");
+		var radioID = repeaterBasicSettings.radioID;
+		var channelLimit = repeaterBasicSettings.channelLimit;
+
+		radioID = radioID == BAND.BAND_24G ? BAND.BAND_24G : BAND.BAND_5G;
+		channelLimit = channelLimit == CHECKBOX_ENABLE.ENABLE ? CHECKBOX_ENABLE.ENABLE : CHECKBOX_ENABLE.DISABLE;
+
+		clearInterval(rescan_query_interval);
+		rescan_query_interval = null;
+		switchScanStatus(SCAN_STATUS.SCANNING);
+
+		rescanStartProxy.write({
+			operation: "scan",
+			radioID: radioID,
+			channelLimit: channelLimit
+		}, function (data) {
+			rescan_query_count = data.scanTime;
+			if(!rescan_query_interval) {
+				rescan_query_interval = setInterval(getScanState, 1000);
+			}
+		}, function () {
+			switchScanStatus(SCAN_STATUS.LOAD_RESULT);
+		}, function () {
+			switchScanStatus(SCAN_STATUS.LOAD_RESULT);
+		})
+	};
+
+	function getScanState()
+	{
+		rescan_query_count --;
+		if (0 == rescan_query_count) {
+			stopGetRescanState();
+			return;
+		}
+
+		rescanStateProxy.read({
+			operation: "getScanState"
+		}, function (data) {
+			if(data.refresh == true) {
+					stopGetRescanState();
+				}
+		})
+	}
+
+	function stopGetRescanState () {
+		clearInterval(rescan_query_interval);
+		rescan_query_interval = null;
+		getRescanResult();
+	}
+
+	function getRescanResult () {
+		$("div#ssid_list_grid").grid("getStore").load();
+	}
+
+	$("div#ssid_list_grid").grid({
+		store: ssidListStore,
+		maxLines: 6,
+		columns: [{
+			dataIndex: "Signal",
+			width: 50,
+			renderer: function(signalNum){
+				var radioID = $("#repeater_settings_radio").combobox("getValue");
+				var className;
+				var signalLevelsMap;
+				var sgnlImg = "";
+
+				signalLevelsMap = radioID[0] == BAND.BAND_24G ? SIGNAL_LEVELS_MAP_2G : SIGNAL_LEVELS_MAP_5G;
+				className = getSignalClassName(signalNum, signalLevelsMap);
+
+				sgnlImg += '<div title="' + signalNum + ' ">';
+				sgnlImg += '<span class="sector-signal ' + className + '" ></span>';
+				sgnlImg += "</div>";
+				return sgnlImg;
+			}
+		}, {
+			dataIndex: "ssid",
+			renderer: function (val, index, row) {
+				var ssid = row.ssid || "--";
+				var bSsid = row.bSsid || "--";
+				var html = '';
+				
+				html += '<p class="ssid-name">' + $.su.func.escapeHtml(ssid) + '</p>';
+				html += '<p class="bssid-name">' + $.su.func.escapeHtml(bSsid) + '</p>';
+				return html;
+			}
+		}, {
+			width: 30,
+			dataIndex: "securityMode",
+			renderer:function(val, index){
+				var html = "";
+				if (val != SECURITY_MODE.NONE) {
+					html += '<span class="lock-icon"></span>';
+				}
+
+				return html;
+			}
+		}]
+	}).on("ev_lineclicked", function (e, key, rowData) {
+		clickedSsidData = $.extend({}, rowData);
+		if (rowData.securityMode == SECURITY_MODE.NONE) {
+			selectedSsid(clickedSsidData);
+		} else {
+			$("#ssid_password").password("setValue", "");
+			$("#ssid_password").password("setNormal");
+			$("#ssid_password_msg").msg("show");
+		}
+	}).on("ev_load", function (e, data) {
+		switchScanStatus(SCAN_STATUS.LOAD_RESULT);
+		if (data.length > 0) {
+			$("#empty_ssid_list_grid").addClass("hidden");
+			$("#ssid_list_grid").removeClass("hidden");
+		} else {
+			$("#empty_ssid_list_grid").removeClass("hidden");
+			$("#ssid_list_grid").addClass("hidden");
+		}
+	});
+
+	$("#ssid_password_msg").msg({
+		type: "prompt",
+		cls: "l",
+		okHandler: function () {
+			if (!$("#ssid_password").password('validate')) {
+				return false;
+			}
+			var ssidPassword = $("#ssid_password").password('getValue');
+			selectedSsid($.extend(clickedSsidData, {
+				password: ssidPassword
+			}))
+		}
+	});
+
+	$("input#ssid_password").password({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		showLevel:false,
+		maxLength: 63,
+		autoTrim: false,
+		allowVisible: true,
+		validator:function(val){
+			if(val.length > $.trim(val).length){
+				return $.su.CHAR.WIRELESS.PASSWORD_SPACE_TIP;
+			}
+			if(WPAPSK_key_invalid(val.toString()))
+			{
+				return true;
+			}
+			else
+			{
+				return $.su.CHAR.WIZARD.ERROR_TIP;
+			}
+		}
+	})
+
+	function getSignalClassName (signal, signalLevelsMap) {
+		var className = "no-signal";
+		if (!$.isNumeric(signal)) {
+			return className;
+		}
+		$.each(signalLevelsMap, function (key, item) {
+			if (signal >= item.min && signal < item.max ) {
+				className = "ssid-signal-level-" + key;
+				return false;
+			}
+		})
+
+		return className;
+	}
+
+	function selectedSsid (data) {
+		var repeaterSettingsNextButton = quickSetupWizard.wizard("getStepButton", "next", "repeaterSettings");
+		selectedSsidData = data;
+		if (!data) {
+			$("#selected_ssid").addClass("hidden");
+			repeaterSettingsNextButton.button("disable");
+		} else {
+			var radioID = $("#repeater_settings_radio").combobox("getValue");
+			var signalLevelsMap = radioID[0] == BAND.BAND_24G ? SIGNAL_LEVELS_MAP_2G : SIGNAL_LEVELS_MAP_5G;
+			var signalClassName = getSignalClassName(data.Signal, signalLevelsMap);
+			$("#selected_ssid_icon").removeClass("ssid-signal-level-1 ssid-signal-level-2 ssid-signal-level-3 no-signal").addClass(signalClassName);
+			$("#selected_ssid_name").text(selectedSsidData.ssid);
+			$("#selected_bssid_name").text(selectedSsidData.bSsid);
+			repeaterSettingsNextButton.button("enable");
+			$("#selected_ssid_name").text(data.ssid);
+			$("#selected_bssid_name").text(data.bSsid);
+			repeaterSettingsNextButton.button("enable");
+			$("#selected_ssid").removeClass("hidden");
+		}
+	}
+
+	function switchScanStatus (status) {
+		switch (status) {
+			case SCAN_STATUS.INIT:
+				selectedSsid();
+				$("#search_network_container").removeClass("hidden");
+				$("#empty_ssid_list_grid").addClass("hidden");
+				$("#scanning_ssid").addClass("hidden");
+				$("#ssid_list_grid").addClass("hidden");
+				$("#refresh_ssid_button").button("setText", $.su.CHAR.WIZARD.SCAN);
+				break;
+			case SCAN_STATUS.SCANNING:
+				$("#repeater_settings_radio").combobox("disable");
+				$("#repeater_settings_channel_limit").checkbox("disableAll");
+				$("#refresh_ssid_button").button("setLoadingStatus");
+				$("#search_network_container").addClass("hidden");
+				$("#empty_ssid_list_grid").addClass("hidden");
+				$("#scanning_ssid").removeClass("hidden");
+				$("#ssid_list_grid").addClass("hidden");
+				$("#other_ssid").addClass("hidden");
+				$("#refresh_ssid_button").button("setText", $.su.CHAR.WIZARD.REFRESH);
+				break;
+			case SCAN_STATUS.LOAD_RESULT:
+				$("#repeater_settings_radio").combobox("enable");
+				$("#repeater_settings_channel_limit").checkbox("enableAll");
+				$("#refresh_ssid_button").button("cancelLoadingStatus");
+				$("#search_network_container").addClass("hidden");
+				$("#empty_ssid_list_grid").removeClass("hidden");
+				$("#scanning_ssid").addClass("hidden");
+				$("#other_ssid").removeClass("hidden");
+				break;
+		}
+	}
+
+	$("#other_ssid_text").click(function () {
+		$("#other_network_password").password("setValue", "");
+		$("#other_network_password").password("setNormal");
+		$("#other_network_msg").msg("show");
+	});
+
+	$("#other_network_msg").msg({
+		type: "prompt",
+		cls: "l",
+		okHandler: function () {
+			if (!$("#other_network_ssid").textbox('validate')) {
+				return false;
+			}
+
+			var security = $("#other_network_security").combobox("getValue")[0];
+			if (security != SECURITY_MODE.NONE && !$("#other_network_password").password('validate')) {
+				return false;
+			}
+
+			var ssid = $("#other_network_ssid").textbox("getValue");
+			var ssidPassword = $("#other_network_password").password('getValue');
+			var otherNetworkSsidData = {
+				ssid: ssid,
+				securityMode: security
+			}
+			if (security != SECURITY_MODE.NONE) {
+				otherNetworkSsidData.password = ssidPassword;
+			}
+			selectedSsid(otherNetworkSsidData);
+			quickSetupWizard.wizard("goNext");
+		}
+	});
+
+	$("#other_network_ssid").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 'm',
+		maxLength: 32,
+		allowBlank: false,
+		vtype:"wlanssid"
+	});
+
+	$("#other_network_security").combobox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		inputCls: "l",
+		items: SECURITY_OPTIONS
+	}).on("ev_change", function(e, oldValue, newValue){
+		if(newValue[0] == SECURITY_MODE.NONE) {
+			$("#other_network_password_container").addClass("hidden");
+		} else {
+			$("#other_network_password_container").removeClass("hidden");
+		}
+	});
+
+	$("#other_network_password").password({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		showLevel:false,
+		maxLength: 63,
+		autoTrim: false,
+		allowBlank: false,
+		allowVisible: true,
+		validator:function(val){
+			if(val.length > $.trim(val).length){
+				return $.su.CHAR.WIRELESS.PASSWORD_SPACE_TIP;
+			}
+			if(WPAPSK_key_invalid(val.toString()))
+			{
+				return true;
+			}
+			else
+			{
+				return $.su.CHAR.WIZARD.ERROR_TIP;
+			}
+		}
+	})
+
+	$("div#channel_limit_msg").msg({
+		type: "alert",
+		cls: "l",
+		okHandler: function () {
+			$("#repeater_settings_channel_limit").checkbox("setValue", CHECKBOX_ENABLE.ENABLE);
+		}
+	});
+
+/////////////////////////// extend network
+
+	$("#extend_network_title").html($.su.CHAR.WIZARD.EXTEND_NETWORK);
+	$("#extend_network_settings_title_2g").html($.su.CHAR.WIZARD.BAND_24G);
+	$("#extend_network_settings_title_5g").html($.su.CHAR.WIZARD.BAND_5G);
+
+	$("#extend_network_form_2g").form({
+		fields: [
+			{name: "extendNetworkEnable"},
+			{name: "extendNetworkCopyEnable"},
+			{name: "extendNetworkSsid"},
+			{name: "extendNetworkSecurity"},
+			{name: "extendNetworkPassword"},
+			{name: "extendNetworkCopySsid", mapping: "ssid"},
+			{name: "extendNetworkCopySecurity", mapping: "securityMode"},
+			{name: "extendNetworkCopyPassword", mapping: "password"},
+			{name: "extendNetworkSsidBroadcast"}
+		],
+	}).on("ev_loadData", function (e, data) {
+		if (data.securityMode == SECURITY_MODE.NONE && !data.password) {
+			$("#copy_security_password_container_2g").addClass("hidden");
+			$("#copy_security_none_container_2g").removeClass("hidden");
+		} else {
+			$("#copy_security_password_container_2g").removeClass("hidden");
+			$("#copy_security_none_container_2g").addClass("hidden");
+		}
+	})
+
+	$("#extend_network_form_5g").form({
+		fields: [
+			{name: "extendNetworkEnable"},
+			{name: "extendNetworkCopyEnable"},
+			{name: "extendNetworkSsid"},
+			{name: "extendNetworkSecurity"},
+			{name: "extendNetworkPassword"},
+			{name: "extendNetworkCopySsid", mapping: "ssid"},
+			{name: "extendNetworkCopySecurity", mapping: "securityMode"},
+			{name: "extendNetworkCopyPassword", mapping: "password"},
+			{name: "extendNetworkSsidBroadcast"}
+		],
+	}).on("ev_loadData", function (e, data) {
+		if (data.securityMode == SECURITY_MODE.NONE && !data.password) {
+			$("#copy_security_password_container_5g").addClass("hidden");
+			$("#copy_security_none_container_5g").removeClass("hidden");
+		} else {
+			$("#copy_security_password_container_5g").removeClass("hidden");
+			$("#copy_security_none_container_5g").addClass("hidden");
+		}
+	})
+
+	$("#copy_security_none_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#copy_security_none_2g").textbox("setValue", $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE);
+	
+	$("#copy_security_none_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#copy_security_none_5g").textbox("setValue", $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE);
+	
+
+	$("#extend_network_enable_2g").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.BAND_24G,
+		labelCls: 'm',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: CHECKBOX_ENABLE.ENABLE, uncheckedValue: CHECKBOX_ENABLE.DISABLE, checked:true}
+		]
+	}).on("ev_change", function (e, oldValue, newValue) {
+		var enable = newValue == "extendNetworkEnable" || newValue == CHECKBOX_ENABLE.ENABLE;
+		if (enable) {
+			$("#extend_network_settings_container_2g").removeClass("hidden");
+		}	else {
+			$("#extend_network_settings_container_2g").addClass("hidden");
+		}
+	});
+
+	$("#extend_network_copy_enable_2g").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.COPY_HOST_SSID,
+		labelCls: 'm',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: CHECKBOX_ENABLE.ENABLE, uncheckedValue: CHECKBOX_ENABLE.DISABLE, checked:false}
+		]
+	}).on("ev_change", function (e, oldValue, newValue) {
+		var enable = newValue == "extendNetworkCopyEnable" || newValue == CHECKBOX_ENABLE.ENABLE;
+
+		if (!enable) {
+			var extendNetworkData2g = $("#extend_network_form_2g").form("serialize");
+			$.extend(extendNetworkData2g, {
+				extendNetworkSsid: extendNetworkData2g.extendNetworkCopySsid,
+				extendNetworkPassword: extendNetworkData2g.extendNetworkCopyPassword,
+				extendNetworkSecurity: parseInt(extendNetworkData2g.extendNetworkCopySecurity) || SECURITY_MODE.NONE,
+				securityMode: parseInt(extendNetworkData2g.extendNetworkCopySecurity) || SECURITY_MODE.NONE,
+			})
+			$("#extend_network_form_2g").form("loadData", extendNetworkData2g);
+		}
+
+		if (enable) {
+			$("#input_settings_container_2g").addClass("hidden");
+			$("#copy_settings_container_2g").removeClass("hidden");
+		}	else {
+			$("#input_settings_container_2g").removeClass("hidden");
+			$("#copy_settings_container_2g").addClass("hidden");
+		}
+	});
+
+	$("#extend_network_ssid_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 'm',
+		maxLength: 32,
+		allowBlank: false,
+		vtype:"wlanssid"
+	});
+
+	$("#extend_network_security_2g").combobox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		inputCls: "l",
+		items: SECURITY_OPTIONS
+	}).on("ev_change", function(e, oldValue, newValue){
+		if(newValue[0] == SECURITY_MODE.NONE) {
+			$("#extend_network_password_container_2g").addClass("hidden");
+		} else {
+			$("#extend_network_password_container_2g").removeClass("hidden");
+		}
+	});
+
+	$("#extend_network_password_2g").password({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		showLevel:false,
+		maxLength: 63,
+		autoTrim: false,
+		allowBlank: false,
+		allowVisible: true,
+		validator:function(val){
+			if(val.length > $.trim(val).length){
+				return $.su.CHAR.WIRELESS.PASSWORD_SPACE_TIP;
+			}
+			if(WPAPSK_key_invalid(val.toString()))
+			{
+				return true;
+			}
+			else
+			{
+				return $.su.CHAR.WIZARD.ERROR_TIP;
+			}
+		}
+	})
+
+	$("#copy_ssid_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#copy_security_2g").combobox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		inputCls: "l",
+		allowBlank: false,
+		items: SECURITY_OPTIONS_WITHOUT_NONE
+	});
+
+	$("#copy_password_2g").password({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		showLevel:false,
+		allowVisible: true
+	}).password("disable");
+
+
+	$("#extend_network_ssid_broadcast_2g").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID_BROADCAST,
+		labelCls: 'm',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: CHECKBOX_ENABLE.ENABLE, uncheckedValue: CHECKBOX_ENABLE.DISABLE, checked:true}
+		]
+	});
+
+	// 5G
+
+	$("#extend_network_enable_5g").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.BAND_5G,
+		labelCls: 'm',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: CHECKBOX_ENABLE.ENABLE, uncheckedValue: CHECKBOX_ENABLE.DISABLE, checked:true}
+		]
+	}).on("ev_change", function (e, oldValue, newValue) {
+		var enable = newValue == "extendNetworkEnable" || newValue == CHECKBOX_ENABLE.ENABLE;
+		if (enable) {
+			$("#extend_network_settings_container_5g").removeClass("hidden");
+		}	else {
+			$("#extend_network_settings_container_5g").addClass("hidden");
+		}
+	});
+
+	$("#extend_network_copy_enable_5g").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.COPY_HOST_SSID,
+		labelCls: 'm',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: CHECKBOX_ENABLE.ENABLE, uncheckedValue: CHECKBOX_ENABLE.DISABLE, checked:false}
+		]
+	}).on("ev_change", function (e, oldValue, newValue) {
+		var enable = newValue == "extendNetworkCopyEnable" || newValue == CHECKBOX_ENABLE.ENABLE;
+
+		if (!enable && $.su.dutMode !== DUT_MODE.BAND_24G) {
+			var extendNetworkData5g = $("#extend_network_form_5g").form("serialize");
+			$.extend(extendNetworkData5g, {
+				extendNetworkSsid: extendNetworkData5g.extendNetworkCopySsid,
+				extendNetworkPassword: extendNetworkData5g.extendNetworkCopyPassword,
+				extendNetworkSecurity: parseInt(extendNetworkData5g.extendNetworkCopySecurity) || SECURITY_MODE.NONE,
+				securityMode: parseInt(extendNetworkData5g.extendNetworkCopySecurity) || SECURITY_MODE.NONE
+			})
+			$("#extend_network_form_5g").form("loadData", extendNetworkData5g);
+		}
+
+		if (enable) {
+			$("#input_settings_container_5g").addClass("hidden");
+			$("#copy_settings_container_5g").removeClass("hidden");
+		}	else {
+			$("#input_settings_container_5g").removeClass("hidden");
+			$("#copy_settings_container_5g").addClass("hidden");
+		}
+	});
+
+	$("#extend_network_ssid_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 'm',
+		maxLength: 32,
+		allowBlank: false,
+		vtype:"wlanssid"
+	});
+
+	$("#extend_network_security_5g").combobox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		inputCls: "l",
+		items: SECURITY_OPTIONS
+	}).on("ev_change", function(e, oldValue, newValue){
+		if(newValue[0] == SECURITY_MODE.NONE) {
+			$("#extend_network_password_container_5g").addClass("hidden");
+		} else {
+			$("#extend_network_password_container_5g").removeClass("hidden");
+		}
+	});
+
+	$("#extend_network_password_5g").password({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		showLevel:false,
+		maxLength: 63,
+		autoTrim: false,
+		allowBlank: false,
+		allowVisible: true,
+		validator:function(val){
+			if(val.length > $.trim(val).length){
+				return $.su.CHAR.WIRELESS.PASSWORD_SPACE_TIP;
+			}
+			if(WPAPSK_key_invalid(val.toString()))
+			{
+				return true;
+			}
+			else
+			{
+				return $.su.CHAR.WIZARD.ERROR_TIP;
+			}
+		}
+	})
+
+	$("#copy_ssid_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#copy_security_5g").combobox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		inputCls: "l",
+		allowBlank: false,
+		items: SECURITY_OPTIONS_WITHOUT_NONE
+	});
+
+	$("#copy_password_5g").password({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		showLevel:false,
+		allowVisible: true
+	}).password("disable");
+
+
+	$("#extend_network_ssid_broadcast_5g").checkbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID_BROADCAST,
+		labelCls: 'm',
+		items: [
+			{boxlabel: $.su.CHAR.WIZARD.ENABLE, inputValue: CHECKBOX_ENABLE.ENABLE, uncheckedValue: CHECKBOX_ENABLE.DISABLE, checked:true}
+		]
+	});
+
+/////////////////////////// repeater summary
+
+	$("#repeater_summary_title").html($.su.CHAR.WIZARD.SUMMARY);
+	$("#repeater_summary_note").html($.su.CHAR.WIZARD.CONFIRM_SETTINGS);
+	$("#host_router_title").html($.su.CHAR.WIZARD.HOST_ROUTER);
+	$("#eap_extend_title").html($.su.CHAR.WIZARD.EAP_EXTENDED);
+	$("#summary_extended_off_2g").html($.su.CHAR.WIZARD.FINISH_2G_DISABLE);
+	$("#summary_extended_off_5g").html($.su.CHAR.WIZARD.FINISH_5G_DISABLE);
+	$("#prelink_error_tip").html($.su.CHAR.WIZARD.CONNECT_ERROR_TITLE);
+	$("#prelink_error_suggest_1").html($.su.CHAR.WIZARD.PRELINK_ERROR_SUGGEST_1);
+	$("#prelink_error_suggest_2").html($.su.CHAR.WIZARD.PRELINK_ERROR_SUGGEST_2);
+	$("#prelink_error_suggest_3").html($.su.CHAR.WIZARD.PRELINK_ERROR_SUGGEST_3);
+	$("#prelink_error_suggest_4").html($.su.CHAR.WIZARD.PRELINK_ERROR_SUGGEST_4);
+	$("#configuration_error_tip").html($.su.CHAR.WIZARD.CONFIGURATION_FAILED);
+	$("#try_again_tip").html($.su.CHAR.WIZARD.TRY_AGAIN);
+	$("#repeater_device_account_title").html($.su.CHAR.WIZARD.DEVICE_ACCOUNT);
+	$('p#repeater_finish_2g_disable').html($.su.CHAR.WIZARD.FINISH_2G_DISABLE);
+	$('p#repeater_finish_5g_disable').html($.su.CHAR.WIZARD.FINISH_5G_DISABLE);
+
+	$("#repeater_summary_device_account_form").form({
+		fields: [
+			{name: "summaryUserName"},
+			{name: "summaryPassword"}
+		],
+	})
+
+	$("#repeater_summary_user_name").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.USERNAME,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#repeater_summary_password").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#summary_host_form").form({
+		fields: [
+			{name: "summaryHostBssid", mapping: "bSsid"},
+			{name: "summaryHostssid", mapping: "ssid"},
+			{name: "summaryHostPassword", mapping: "password"}
+		],
+	}).on("ev_loadData", function (e, data) {
+		var repeaterBasicSettingsData = $("#repeater_basic_settings_form").form("serialize");
+		if (repeaterBasicSettingsData.radioID == BAND.BAND_24G) {
+			$("#summary_host_ssid").textbox("setFieldLabel", $.su.CHAR.WIZARD.AP_SSID_LABEL_2G);
+		} else {
+			$("#summary_host_ssid").textbox("setFieldLabel", $.su.CHAR.WIZARD.AP_SSID_LABEL_5G);
+		}
+
+		var noneSecurity = data.securityMode == SECURITY_MODE.NONE && !data.password;
+		if (noneSecurity) {
+			$("#summary_host_password_container").addClass("hidden");
+			$("#summary_host_security_none_container").removeClass("hidden");
+		} else {
+			$("#summary_host_password_container").removeClass("hidden");
+			$("#summary_host_security_none_container").addClass("hidden");
+		}
+	})
+
+	$("#summary_host_security_none").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#summary_host_security_none").textbox("setValue", $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE);
+	
+	$("#summary_extended_form").form({
+		fields: [
+			{name: "extendNetworkSsid2g"},
+			{name: "extendNetworkSecurity2g"},
+			{name: "extendNetworkPassword2g"},
+			{name: "extendNetworkSsidBroadcast2g"},
+			{name: "extendNetworkSsid5g"},
+			{name: "extendNetworkSecurity5g"},
+			{name: "extendNetworkPassword5g"},
+			{name: "extendNetworkSsidBroadcast5g"}
+		],
+	}).on("ev_loadData", function (e, data) {
+		if (data.extendNetworkEnable2g == CHECKBOX_ENABLE.ENABLE) {
+			$("#summary_extended_container_2g").removeClass("hidden");
+			$("#summary_extended_off_2g").addClass("hidden");
+		} else {
+			$("#summary_extended_container_2g").addClass("hidden");
+			$("#summary_extended_off_2g").removeClass("hidden");
+		}
+
+		var noneSecurity2g = data.extendNetworkSecurity2g == SECURITY_MODE.NONE && !data.extendNetworkPassword2g;
+		if (noneSecurity2g) {
+			$("#summary_extend_password_container_2g").addClass("hidden");
+			$("#summary_extended_security_none_container_2g").removeClass("hidden");
+		} else {
+			$("#summary_extend_password_container_2g").removeClass("hidden");
+			$("#summary_extended_security_none_container_2g").addClass("hidden");
+		}
+
+		if (data.extendNetworkSsidBroadcast2g == CHECKBOX_ENABLE.ENABLE) {
+			$("#summary_extended_ssid_broadcast_2g").textbox("setValue", $.su.CHAR.OPERATION.ON);
+		} else {
+			$("#summary_extended_ssid_broadcast_2g").textbox("setValue", $.su.CHAR.OPERATION.OFF);
+		}
+
+		if ($.su.dutMode != DUT_MODE.BAND_24G) {
+			if (data.extendNetworkEnable5g == CHECKBOX_ENABLE.ENABLE) {
+				$("#summary_extended_container_5g").removeClass("hidden");
+				$("#summary_extended_off_5g").addClass("hidden");
+			} else {
+				$("#summary_extended_container_5g").addClass("hidden");
+				$("#summary_extended_off_5g").removeClass("hidden");
+			}
+
+			var noneSecurity5g = data.extendNetworkSecurity5g == SECURITY_MODE.NONE && !data.extendNetworkPassword5g;
+			if (noneSecurity5g) {
+				$("#summary_extend_password_container_5g").addClass("hidden");
+				$("#summary_extended_security_none_container_5g").removeClass("hidden");
+			} else {
+				$("#summary_extend_password_container_5g").removeClass("hidden");
+				$("#summary_extended_security_none_container_5g").addClass("hidden");
+			}
+
+			if (data.extendNetworkSsidBroadcast5g == CHECKBOX_ENABLE.ENABLE) {
+				$("#summary_extended_ssid_broadcast_5g").textbox("setValue", $.su.CHAR.OPERATION.ON);
+			} else {
+				$("#summary_extended_ssid_broadcast_5g").textbox("setValue", $.su.CHAR.OPERATION.OFF);
+			}
+		} else {
+			$("#summary_extended_container_5g").addClass("hidden");
+			$("#summary_extended_off_5g").addClass("hidden");
+			$("#summary_extended_container_5g").prev(".separator").addClass("hidden");
+		}
+	})
+
+	$("#summary_extended_security_none_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#summary_extended_security_none_2g").textbox("setValue", $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE);
+
+	$("#summary_extended_security_none_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#summary_extended_security_none_5g").textbox("setValue", $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE);
+
+	$("#summary_host_bssid").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.BSSID,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+	
+	$("#summary_host_ssid").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.AP_SSID_LABEL_2G,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+	
+	$("#summary_host_password").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+	
+	$("#summary_extended_ssid_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.AP_SSID_LABEL_2G,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+	
+	$("#summary_extended_password_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+	
+	$("#summary_extended_ssid_broadcast_2g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID_BROADCAST,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+	
+	$("#summary_extended_ssid_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.AP_SSID_LABEL_5G,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+	
+	$("#summary_extended_password_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+	
+	$("#summary_extended_ssid_broadcast_5g").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID_BROADCAST,
+		labelCls: 'm',
+		readOnly: true,
+		inputCls: "xl"
+	});
+
+	$("#repeater_summary_progressbar_msg").msg({
+		type: "window",
+		cls: "l",
+		closeBtn: false
+	});
+
+	$("#prelink_error_msg").msg({
+		type: "window",
+		cls: "xxl",
+		closeBtn: false
+	})
+
+	var repeaterSummaryProgressbar = $('#repeater_summary_progressbar').progressbar({
+		fieldLabel: null,
+		cls: 'inline',
+		width: 460,
+		height: 10,
+		value: 0,
+		showPercentage: false
+	});
+
+	$("#prelink_error_host_network_form").form({
+		fields: [
+			{name: "ssid"},
+			{name: "password"}
+		]
+	}).on("ev_loadData", function (e, data) {
+		var repeaterBasicSettingsData = $("#repeater_basic_settings_form").form("serialize");
+		if (repeaterBasicSettingsData.radioID == BAND.BAND_24G) {
+			$("#prelink_error_host_network_title").html($.su.CHAR.WIZARD.HOST_NETWORK_2G);
+		} else {
+			$("#prelink_error_host_network_title").html($.su.CHAR.WIZARD.HOST_NETWORK_5G);
+		}
+
+		if (data.securityMode == SECURITY_MODE.NONE && !data.password) {
+			$("#prelink_error_host_password_container").addClass("hidden");
+			$("#prelink_error_security_none_container").removeClass("hidden");
+		} else {
+			$("#prelink_error_host_password_container").removeClass("hidden");
+			$("#prelink_error_security_none_container").addClass("hidden");
+		}
+	})
+
+	$("#prelink_error_security_none").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SECURITY,
+		labelCls: 'm',
+		readOnly: true
+	});
+
+	$("#prelink_error_security_none").textbox("setValue", $.su.CHAR.WIRELESS.WIRELESS_SEC_NONE);
+
+	$("#prelink_error_host_network_ssid").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.SSID,
+		labelCls: 's',
+		readOnly: true,
+		inputCls: "xxxl"
+	})
+
+	$("#prelink_error_host_network_password").textbox({
+		fieldLabel: $.su.CHAR.WIZARD.PASSWORD,
+		labelCls: 's',
+		readOnly: true,
+		inputCls: "xxxl"
+	})
+
+	$("#reconfigure_repeater_button").button({
+		text: $.su.CHAR.WIZARD.RECONFIGURE_REPEATER_BUTTON,
+		handler: function(){
+			$("#prelink_error_msg").msg("close");
+			quickSetupWizard.wizard("goTo", "repeaterSettings");
+			selectedSsid();
+		}
+	})
+	
+	$("#reconnect_button").button({
+		text: $.su.CHAR.WIZARD.RECONNECT_BUTTON,
+		handler: function(){
+			$("#prelink_error_msg").msg("close");
+			startPrelinkSsid();
+		}
+	})
+
+	$("#configuration_error_msg").msg({
+		type: "alert",
+		cls: "l",
+		closeBtn: false
+	})
+
+	function startPrelinkSsid () {
+		var data = {
+			host: getHostData()
+		}
+		
+		prelinkSsid(data);
+	}
+
+	function getHostData () {
+		var repeaterBasicSettings = $("#repeater_basic_settings_form").form("serialize");
+		var radioID = repeaterBasicSettings.radioID;
+		var channelLimit = repeaterBasicSettings.channelLimit;
+		var securityMode = parseInt(selectedSsidData.securityMode);
+		radioID = radioID == BAND.BAND_24G ? BAND.BAND_24G : BAND.BAND_5G;
+		channelLimit = channelLimit == CHECKBOX_ENABLE.ENABLE;
+
+		return {
+			radioID: radioID,
+			ssid: selectedSsidData.ssid,
+			bSsid: selectedSsidData.bSsid,
+			securityMode: securityMode,
+			password: selectedSsidData.password,
+			channelLimit: channelLimit
+		}
+	}
+
+	function prelinkSsid (data) {
+		prelinkStartProxy.write(
+		{
+			operation: 'startPrelink',
+			data: $.su.json.toJSONString(data)
+		}, function(result){
+			var waitSeconds = result.waitSeconds;
+			
+			prelink_query_count = DEFAULT_PRELINK_QUERY_COUNT;
+			$("#connecting_network_tip").html($.su.CHAR.WIZARD.CONNECTING_TIP);
+			$("#repeater_summary_progressbar_msg").msg("show");
+			repeaterSummaryProgressbar.progressbar("animate", 0, PRELINK_PROCESS_RATIO, waitSeconds * 1000);
+
+			waitIntervalFlag = setInterval(function(){
+				getPrelinkSsidState();
+				if (--waitSeconds === 0) {
+					clearInterval(waitIntervalFlag);
+					prelinkSsidFail();
+				}
+			}, 1000);
+		}, function () {
+			prelinkSsidFail();
+		}, function () {
+			prelinkSsidFail();
+		});
+	};
+
+	function getPrelinkSsidState () {
+		prelinkStateProxy.read({
+			operation: "getPrelinkState"
+		}, function (data) {
+			if (data.status == "connected") {
+				clearInterval(waitIntervalFlag)
+				prelinkSsidSuccess();
+			}
+		}, function () {
+			clearInterval(waitIntervalFlag);
+			prelinkSsidFail();
+		}, function () {
+			setTimeout(getPrelinkSsidState, DEFAULT_WAIT_SECONDS * 1000);
+		})
+	}
+
+	function prelinkSsidFail () {
+		repeaterSummaryProgressbar.progressbar("stop");
+		$("#repeater_summary_progressbar_msg").msg("close");
+		$("#prelink_error_host_network_form").form("loadData", selectedSsidData);
+		$("#prelink_error_msg").msg("show");
+	}
+
+	function prelinkSsidSuccess () {
+		repeaterSummaryProgressbar.progressbar("stop");
+		repeaterSummaryProgressbar.progressbar("animate", repeaterSummaryProgressbar.progressbar("getValue"), PRELINK_PROCESS_RATIO, 1 * 1000, function () {
+			startConfiguring();
+		});
+	}
+
+	function startConfiguring () {
+		$("#connecting_network_tip").html($.su.CHAR.WIZARD.CONFIGURING_TIP);
+		
+		var hostData = getHostData();
+
+		wizardProxy.write({
+			operation: 'set',
+			data: $.su.json.toJSONString({
+				account:{
+					newUserName: $("input#wizard_account_username").textbox('getValue'),
+					newPwd: md5($("input#wizard_account_password").password('getValue')).toUpperCase(),
+					confirmPwd: md5($("input#wizard_account_confirm").password('getValue')).toUpperCase()
+				},
+				sysmode: getSysMode(),
+				host: getHostData(),
+				wlan: getWlanData(),
+				privacyPolicy: getPrivacyPolicy(),
+				date: synPcClock()[0],
+				time: synPcClock()[1],
+				timeZone: synPcClock()[2]
+			})
+		}, function(res){
+			repeaterSummaryProgressbar.progressbar("stop");
+			repeaterSummaryProgressbar.progressbar("animate", repeaterSummaryProgressbar.progressbar("getValue"), CONFIGURING_PROCESS_RATIO, res.waitSeconds * 1000, function () {
+				$("#repeater_summary_progressbar_msg").msg("close");
+				$("#repeater_quick_setup_finish").removeClass("hidden");
+
+				var wlanData = getWlanData();
+				var ssid_2g = wlanData[0].ssid;
+				var ssid_5g = wlanData[1] && wlanData[1].ssid;
+				var enable2g = wlanData[0].enable;
+				var enable5g = wlanData[1] && wlanData[1].enable;
+				if (ssid_2g && enable2g) {
+					$("#repeater_ssid_value_2g").text(ssid_2g);
+					$("#repeater_finish_ssid_display_label_2g").show();
+					$("#repeater_finish_2g_disable").hide();
+				} else {
+					$("#repeater_finish_ssid_display_label_2g").hide();
+					$("#repeater_finish_2g_disable").show();
+				}
+				if ($.su.dutMode != DUT_MODE.BAND_24G && ssid_5g && enable5g) {
+					$("#repeater_ssid_value_5g").text(ssid_5g);
+					$("#repeater_finish_ssid_display_label_5g").show();
+					$("#repeater_finish_5g_disable").hide();
+				} else {
+					$("#repeater_finish_ssid_display_label_5g").hide();
+					$("#repeater_finish_5g_disable").show();
+				}
+
+				$('#top-wrapper').addClass('hidden');
+				$('#repeater_quick_setup_finish').removeClass("hidden");
+			});
+		}, function () {
+			repeaterSummaryProgressbar.progressbar("stop");
+			$("#repeater_summary_progressbar_msg").msg("close");
+			$("#configuration_error_msg").msg("show");
+		});
+	}
+
+	function getSysMode () {
+		return $("#device-mode-radio").val() == DEVICE_MODE.AP ? DEVICE_MODE.AP : DEVICE_MODE.REPEATER;
+	}
+
+	function getWlanData () {
+		var wlanData = [];
+		var extendNetworkFormData2g = $("#extend_network_form_2g").form("serialize");
+		var wlanData2g = {
+			radioID: BAND.BAND_24G,
+			enable: extendNetworkFormData2g.extendNetworkEnable == CHECKBOX_ENABLE.ENABLE,
+			ssidbcast: extendNetworkFormData2g.extendNetworkSsidBroadcast == CHECKBOX_ENABLE.ENABLE
+		};
+
+		if (extendNetworkFormData2g.extendNetworkCopyEnable == CHECKBOX_ENABLE.ENABLE) {
+			$.extend(wlanData2g, {
+				ssid: extendNetworkFormData2g.extendNetworkCopySsid,
+				securityMode: parseInt(extendNetworkFormData2g.extendNetworkCopySecurity) || SECURITY_MODE.NONE,
+				password: extendNetworkFormData2g.extendNetworkCopyPassword
+			})
+		} else {
+			$.extend(wlanData2g, {
+				ssid: extendNetworkFormData2g.extendNetworkSsid,
+				securityMode: parseInt(extendNetworkFormData2g.extendNetworkSecurity) || SECURITY_MODE.NONE,
+				password: extendNetworkFormData2g.extendNetworkPassword
+			})
+		}
+		wlanData.push(wlanData2g);
+
+		if ($.su.dutMode != DUT_MODE.BAND_24G) {
+			var extendNetworkFormData5g = $("#extend_network_form_5g").form("serialize");
+			var wlanData5g = {
+				radioID: BAND.BAND_5G,
+				enable: extendNetworkFormData5g.extendNetworkEnable == CHECKBOX_ENABLE.ENABLE,
+				ssidbcast: extendNetworkFormData2g.extendNetworkSsidBroadcast == CHECKBOX_ENABLE.ENABLE
+			};
+
+			if (extendNetworkFormData5g.extendNetworkCopyEnable == CHECKBOX_ENABLE.ENABLE) {
+				$.extend(wlanData5g, {
+					ssid: extendNetworkFormData5g.extendNetworkCopySsid,
+					securityMode: parseInt(extendNetworkFormData5g.extendNetworkCopySecurity) || SECURITY_MODE.NONE,
+					password: extendNetworkFormData5g.extendNetworkCopyPassword
+				})
+			} else {
+				$.extend(wlanData5g, {
+					ssid: extendNetworkFormData5g.extendNetworkSsid,
+					securityMode: parseInt(extendNetworkFormData5g.extendNetworkSecurity) || SECURITY_MODE.NONE,
+					password: extendNetworkFormData5g.extendNetworkPassword
+				})
+			}
+			wlanData.push(wlanData5g);
+		}
+
+		return wlanData;
+	}
+
+/////////////////////////// repeater finish
+
+	$("#repeater_quick_setup_finish_title").html($.su.CHAR.WIZARD.FINISH);
+	$("#repeater_quick_setup_finish_note").html($.su.CHAR.WIZARD.REPEATER_FINISH_NOTE);
+	$("#repeater_ssid_label_2g").html($.su.CHAR.WIZARD.REPEATER_SSID_LABEL_2G + ":");
+	$("#repeater_ssid_label_5g").html($.su.CHAR.WIZARD.REPEATER_SSID_LABEL_5G + ":");
+
+	$("#repeater_quick_setup_finish_button").button({
+		text: $.su.CHAR.WIZARD.REPEATER_FINISH_BUTTON,
+		handler: function(){
+			location.href = 'http://tplinkeap.net';
+		}
+	})
+
+/////////////////////////////////////////////////////////////
+
+	$('#frequencyErrorTip').html($.su.CHAR.WIZARD.ENABLE_ENSURE_TIP);
+
+	$("div#errorMsg").msg({
+		type: "alert",
+		cls: "m"
+	});
+	
+	$.ajax({
+		type: "GET",
+		url: URL_SYSMODE,
+		timeout: 5000,
+		dataType: "json",
+		cache: false,
+		data: {"operation": "read"},
+		traditional: true,
+		success: function(data){
+			if(data.success && 0 == data.error)
+			{
+				$.su.dutMode = data.data.multiRadio;
+				$.su.supportWpa3 = data.data.supportWpa3;
+				$.su.support_channelLimit = data.data.support_channelLimit;
+				if($.su.dutMode == DUT_MODE.BAND_24G){
+					$('div#wizard-step-wireless_5g').hide();
+					$("#repeater_settings_radio").combobox("loadData", [{name: $.su.CHAR.WIZARD.BAND_24G, value: BAND.BAND_24G, selected:true}]);
+					$("#channel_limit_container").addClass("hidden");
+					$("#extend_network_settings_title_5g").addClass("hidden");
+					$("#extend_network_form_5g").addClass("hidden");
+					$("#ap_summary_container_5g").addClass("hidden");
+				}
+				if ($.su.support_channelLimit != 1) {
+					$("#channel_limit_container").addClass("hidden");
+				}
+
+				initSecurityOptions();
+			}
+		},
+		error: function(e, status){}
+	});
+
+	function initSecurityOptions () {
+		if ($.su.supportWpa3) {
+			$("#other_network_security").combobox("loadData", SECURITY_OPTIONS_WITH_WPA3);
+			$("#extend_network_security_2g").combobox("loadData", EXTEND_NETWORK_SECURITY_OPTIONS);
+			$("#copy_security_2g").combobox("loadData", EXTEND_NETWORK_SECURITY_OPTIONS_WITHOUT_NONE);
+
+			if ($.su.dutMode != DUT_MODE.BAND_24G) {
+				$("#extend_network_security_5g").combobox("loadData", EXTEND_NETWORK_SECURITY_OPTIONS);
+				$("#copy_security_5g").combobox("loadData", EXTEND_NETWORK_SECURITY_OPTIONS_WITHOUT_NONE);
+			}
+		} else {
+			$("#other_network_security").combobox("loadData", SECURITY_OPTIONS);
+			$("#extend_network_security_2g").combobox("loadData", SECURITY_OPTIONS);
+			$("#copy_security_2g").combobox("loadData", SECURITY_OPTIONS_WITHOUT_NONE);
+
+			if ($.su.dutMode != DUT_MODE.BAND_24G) {
+				$("#extend_network_security_5g").combobox("loadData", SECURITY_OPTIONS);
+				$("#copy_security_5g").combobox("loadData", SECURITY_OPTIONS_WITHOUT_NONE);
+			}
+		}
+	}
+
+	//修正mask的覆盖问题
+	$("#top-wrapper").css({
+		"height" : $(window).height()
+	});
+
+	function preLoadImg(){
+    function getBase64Image(img) {
+        var canvas = document.createElement("canvas");
+        canvas.width = img.width;
+        canvas.height = img.height;
+        if(canvas && canvas.getContext){
+            var ctx = canvas.getContext("2d");
+            ctx.drawImage(img, 0, 0, img.width, img.height);
+            var dataURL = canvas.toDataURL("image/png");
+            return dataURL;
+        }else{
+            return img.src;
+        }
+    };
+    (function getFinish() {
+        var img = document.createElement("img"),
+        retry = true;
+        img.onload =function() {
+            var data = getBase64Image(img);
+            $("#repeater_quick_setup_finish_icon").css("background-image", "url(" + data + ")");
+        }
+        img.onerror = function(){
+            if(retry){
+                img.src = $("#repeater_quick_setup_finish_icon").css("background-image").match(/\((.*)\)/)[1].replace(/"/g, "");
+                retry = false;
+            }
+        }
+        img.src = $("#repeater_quick_setup_finish_icon").css("background-image").match(/\((.*)\)/)[1].replace(/"/g, "");
+    })();
+	}
+
+	preLoadImg();
+
+});
+</script>
+
+
+<div class="tips-container" id="tips-container"></div><div id="msg-boxs-container" class="msg-boxs-container"><div id="ssid_password_msg" class="hidden alert-msg container widget-container msg-container l" style="z-index: 999; left: 421px; top: 156px; display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><a class="widget-close msg-close" href="javascript:void(0);"></a><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container">
+		<p id="ssid_password_title" class="alert-title ssid-password-title">Enter password</p>
+		<div class="container widget-container text-container password-container valid"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer"><div class="widget-wrap text-wrap password-wrap allow-visible"><span class="text-wrap password-wrap "><input type="password" class="text-text password-text password-hidden l" maxlength="63" style="display: none;"><input type="text" class="text-text password-text password-visible hidden l" maxlength="63" style="display: inline-block;"><span class="icon allow-visible-btn visible"></span><input type="password" id="ssid_password" name="ssidPassword" value="" class="hidden"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta" style="left: 76.5px;"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: 166px; white-space: normal;">8-63 ASCII characters</div></div></div></div></div>
+	</div></div><div class="button-container msg-btn-container"><div class="msg-btn-wrap"><div class="button-container inline-block"><button type="button" class="button-button btn-msg btn-msg-cancel btn-prompt"><span class="text button-text">Cancel</span></button></div><div class="button-container inline-block"><button type="button" class="button-button btn-msg btn-msg-ok btn-prompt"><span class="text button-text">OK</span></button></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div id="other_network_msg" class="hidden alert-msg container widget-container msg-container l" style="z-index: 999; display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><a class="widget-close msg-close" href="javascript:void(0);"></a><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container">
+		<p id="other_network_title" class="alert-title">Other Network</p>
+		<p id="other_network_tip" class="alert-tip other-network-tip">Enter the information of the network you want to connect to.</p>
+		<div class="container widget-container text-container "><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="other_network_ssid" class="text-text l" maxlength="32"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+		<div class="container widget-container combobox-container single"><input id="other_network_security" readonly="" class="hidden combobox-value"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel combobox-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer combobox-wrap-outer"><div class="widget-wrap combobox-wrap"><input class="combobox-text l" type="text" readonly="true" value="- Please Select -"><a class="combobox-switch" href="javascript:void(0);"><span class="icon"></span></a><div class="combobox-list-wrap" toggleflag="hidden" style="display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-center-left"><div class="position-center-right"><div class="combobox-list-content-wrap"><ul class="combobox-list"><li class="combobox-list   "><label for="other_network_security-option-2184869711" type="single" class="combobox-label single"><input id="other_network_security-option-2184869711" name="" display="None" index="false" class="combobox-checkbox" type="checkbox" value="0"><span class="icon"></span><span class="text">None</span></label></li><li class="combobox-list   "><label for="other_network_security-option-6851040581" type="single" class="combobox-label single"><input id="other_network_security-option-6851040581" name="" display="WPA-PSK" index="false" class="combobox-checkbox" type="checkbox" value="2"><span class="icon"></span><span class="text">WPA-PSK</span></label></li><li class="combobox-list   "><label for="other_network_security-option-5809798297" type="single" class="combobox-label single"><input id="other_network_security-option-5809798297" name="" display="WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="3"><span class="icon"></span><span class="text">WPA2-PSK</span></label></li><li class="combobox-list   selected"><label for="other_network_security-option-3215120330" type="single" class="combobox-label single"><input id="other_network_security-option-3215120330" name="" display="WPA-PSK/WPA2-PSK" index="false" class="combobox-checkbox" type="checkbox" value="4" checked="checked"><span class="icon"></span><span class="text">WPA-PSK/WPA2-PSK</span></label></li></ul></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div></div></div><div class="widget-error-tips combobox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content" style="width: inherit; white-space: nowrap;"></div></div></div></div></div>		
+		<div id="other_network_password_container">
+			<div class="container widget-container text-container password-container  "><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel password-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer password-wrap-outer"><div class="widget-wrap text-wrap password-wrap allow-visible"><span class="text-wrap password-wrap "><input type="password" class="text-text password-text password-hidden l" maxlength="63"><input type="text" class="text-text password-text password-visible hidden l" maxlength="63"><span class="icon allow-visible-btn"></span><input type="password" id="other_network_password" class="hidden"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+		</div>
+	</div></div><div class="button-container msg-btn-container"><div class="msg-btn-wrap"><div class="button-container inline-block"><button type="button" class="button-button btn-msg btn-msg-cancel btn-prompt"><span class="text button-text">Cancel</span></button></div><div class="button-container inline-block"><button type="button" class="button-button btn-msg btn-msg-ok btn-prompt"><span class="text button-text">OK</span></button></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div id="channel_limit_msg" class="hidden alert-msg container widget-container msg-container l" style="z-index: 999; left: 421px; top: 150px; display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><a class="widget-close msg-close" href="javascript:void(0);"></a><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container">
+		<p id="channel_limit_tip_title" class="alert-title">Notification</p>
+		<p id="channel_limit_tip" class="alert-tip">With Channel Limit enabled, please set the front-end AP channel to 100-140(20MHZ),100-136(40MHz),100-128(80MHz), otherwise the extended network may fail to work.</p>
+	</div></div><div class="msg-btn-container"><div class="msg-btn-wrap"><div class="button-container inline-block"><button type="button" class="button-button btn-msg btn-msg-ok btn-alert"><span class="text button-text">OK</span></button></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div id="repeater_summary_progressbar_msg" class="hidden alert-msg progressbar-msg container widget-container msg-container l" style="z-index: 999; display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container">
+		<p id="connecting_network_tip" class="progressbar-tip"></p>
+		<div class="container widget-container progressbar-container progressbar-horizontal inline"><div class="widget-wrap-outer progressbar-wrap-outer"><div class="widget-wrap progressbar-wrap"><div class="widget-wrap progressbar-content" style="width: 460px; height: 10px;"><div class="progressbar-value" style="width:0px"></div></div><div class="progressbar-text"></div></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div><input id="repeater_summary_progressbar" width="460" height="10" class="hidden"></div>
+	</div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div id="prelink_error_msg" class="hidden warning-msg prelink-error-msg container widget-container msg-container xxl" style="z-index: 999; display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container">
+		<h4 class="title">
+			<span class="icon warning-icon"></span>
+			<span class="text prelink-error-title" id="prelink_error_tip">No Host Network Connection</span>
+		</h4>
+		<div class="prelink-error-suggest">
+			<p id="prelink_error_suggest_1">Verify your host network credentials. If they are incorrect, start over the setup.</p>
+		</div>
+		<form id="prelink_error_host_network_form" class="settings-summary-container form-panel" enctype="application/x-www-form-urlencoded" method="POST" action="https://192.168.0.254/" target="_self">
+			<p id="prelink_error_host_network_title" class="host-network-title"></p>
+			<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap s"><label class="widget-fieldlabel text-fieldlabel">SSID</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="prelink_error_host_network_ssid" name="ssid" readonly="" class="text-text xxxl"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			<div id="prelink_error_host_password_container">
+				<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap s"><label class="widget-fieldlabel text-fieldlabel">Password</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="prelink_error_host_network_password" name="password" readonly="" class="text-text xxxl"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			</div>
+			<div id="prelink_error_security_none_container" class="hidden">
+				<div class="container widget-container text-container  read-only"><div class="widget-fieldlabel-wrap m"><label class="widget-fieldlabel text-fieldlabel">Security</label><span class="widget-separator">:</span></div><div class="widget-wrap-outer text-wrap-outer"><div class="widget-wrap text-wrap"><span class="text-wrap"><input id="prelink_error_security_none" readonly="" class="text-text l" snapshot="None"></span></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			</div>
+		<div class="form-prompt successed"><div class="bg"></div><div class="content"><span class="icon"></span><span class="text text-successed">Saved</span><span class="text text-failed">Failed</span></div></div></form>
+		<div class="prelink-error-suggest">
+			<p id="prelink_error_suggest_2">Make sure the AP is close to your router, preferably within 16 feet, and away from large electrical appliances.</p>
+		</div>
+		<div class="prelink-error-suggest">
+			<p id="prelink_error_suggest_3">If you have enabled wireless MAC filtering, wireless access control, or access control list (ACL) on your router, disable them and try again.</p>
+		</div>
+		<div class="prelink-error-suggest">
+			<p id="prelink_error_suggest_4">If you are still having problems, visit <a href="http://www.tp-link.com/support-contact" target="_blank">http://www.tp-link.com/support-contact</a> for technical support.</p>
+		</div>
+		<div class="buttons-container">
+			<div class="container widget-container button-container"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button id="reconfigure_repeater_button" class="button-button"><span class="text button-text">Reconfigure the Repeater Mode</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+			<div class="container widget-container button-container"><div class="widget-wrap-outer button-wrap-outer"><div class="widget-wrap button-wrap"><button id="reconnect_button" class="button-button"><span class="text button-text">Reconnect</span><span class="loading-icon"></span></button></div><div class="widget-error-tips textbox-error-tips undefined" style="display: none;"><span class="widget-error-tips-delta"></span><div class="widget-error-tips-wrap"><div class="content error-tips-content"></div></div></div></div></div>
+		</div>
+	</div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div id="configuration_error_msg" class="warning-msg wizard-msg hidden container widget-container msg-container l" style="z-index: 999; display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container">
+		<h4 class="title">
+			<span class="icon warning-icon"></span>
+			<span id="configuration_error_tip" class="text wizard-msg-title">Configuration Failed</span>
+		</h4>
+		<p id="try_again_tip" class="wizard-msg-tip">Please try again.</p>
+	</div></div><div class="msg-btn-container"><div class="msg-btn-wrap"><div class="button-container inline-block"><button type="button" class="button-button btn-msg btn-msg-ok btn-alert"><span class="text button-text">OK</span></button></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div><div id="errorMsg" class="hidden container widget-container msg-container m" style="z-index: 999; display: none;"><div class="position-top-left"></div><div class="position-top-center"></div><div class="position-top-right"></div><div class="position-center-left"><div class="position-center-right"><div class="msg-wrap"><a class="widget-close msg-close" href="javascript:void(0);"></a><div class="msg-content-wrap"><h3 class="widget-title msg-title"><span class="msg-title-container"></span></h3><div class="widget-content msg-content-container">
+		<p class="frequency-error-tip">
+			<span class="icon"></span>
+			<span class="text" id="frequencyErrorTip">Please enable at least one radio band.</span>
+		</p>
+	</div></div><div class="msg-btn-container"><div class="msg-btn-wrap"><div class="button-container inline-block"><button type="button" class="button-button btn-msg btn-msg-ok btn-alert"><span class="text button-text">OK</span></button></div></div></div></div></div></div><div class="position-bottom-left"></div><div class="position-bottom-center"></div><div class="position-bottom-right"></div></div></div></body></html>

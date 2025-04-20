@@ -5,6 +5,8 @@ export default function Section({ children, id }) {
 
   if (id == "profile") {
     extraStyle = "justify-between gap-4";
+  } else if (id == "contacts") {
+    extraStyle = "max-sm:pb-30  min-sm:pb-40";
   }
   return (
     <section

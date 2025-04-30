@@ -1,3 +1,9 @@
 export default function Container({ children }) {
-  return <div className="flex justify-center items-center">{children}</div>;
+  // Hide Button
+  const hide = true;
+  return (
+    <div className={`${hide ? "hidden" : "flex"} justify-center items-center`}>
+      {children}
+    </div>
+  );
 }

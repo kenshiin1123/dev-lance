@@ -15,6 +15,8 @@ export default function AboutMe() {
   return (
     <Section id={"about-me"}>
       <Header>About Me</Header>
+
+      {/* "Read Aloud" Button Container */}
       <Container>
         <Button handleClick={handleButtonClick} />
         <CancelButton

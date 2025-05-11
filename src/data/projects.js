@@ -1,5 +1,6 @@
 import wikiScraperImg from "../assets/images/Projects/wikiscraper.png";
-import reminderAppImg from "../assets/images/Projects/reminder-app.png";
+// import reminderAppImg from "../assets/images/Projects/reminder-app.png";
+import reminderApp2Img from "../assets/images/Projects/reminder-app-2.png";
 import fileCryptImg from "../assets/images/Projects/filecrypt.png";
 import productStoreImg from "../assets/images/Projects/product-store-app.png";
 import ticTacToeImg from "../assets/images/Projects/tic-tac-toe.png";
@@ -11,10 +12,15 @@ const projects = [
     image: wikiScraperImg,
     link: "https://wiki-scraper-tau.vercel.app",
   },
+  // {
+  //   name: "Reminder App",
+  //   image: reminderAppImg,
+  //   link: "https://my-reminder-app.vercel.app",
+  // },
   {
-    name: "Reminder App",
-    image: reminderAppImg,
-    link: "https://my-reminder-app.vercel.app",
+    name: "Reminder App 2",
+    image: reminderApp2Img,
+    link: "https://my-reminder-app-2.vercel.app",
   },
   {
     name: "FileCrypt",

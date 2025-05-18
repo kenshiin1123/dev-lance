@@ -6,6 +6,8 @@ import tailwindCSSImg from "../assets/images/Tech Stack/tailwindcss.png";
 import reactRouterImg from "../assets/images/Tech Stack/reactrouter.png";
 import framerMotionImg from "../assets/images/Tech Stack/framer-motion.png";
 import figmaImg from "../assets/images/Tech Stack/figma.png";
+import reduxImg from "../assets/images/Tech Stack/redux.png";
+import gitImg from "../assets/images/Tech Stack/git.png";
 
 const techStack = [
   {
@@ -36,6 +38,13 @@ const techStack = [
     active: false,
   },
   {
+    name: "Redux",
+    description:
+      "Redux is a state management library that centralizes and organizes application state in a single store, using actions and reducers to handle updates in a predictable, unidirectional flow. Redux Toolkit builds on this by simplifying setup and reducing boilerplate with utilities like createSlice and createAsyncThunk, making Redux easier to use and more scalable for modern applications.",
+    image: reduxImg,
+    active: false,
+  },
+  {
     name: "Tailwind CSS",
     description:
       "Applies pre-defined utility classes to style components quickly and consistently within a React app.",
@@ -54,6 +63,13 @@ const techStack = [
     description:
       "Framer Motion is a React library that adds smooth animations, transitions, and gesture-based interactions to web interfaces. It handles layout changes, element entry/exit, drag-and-drop, and complex animation sequences with high performance.",
     image: framerMotionImg,
+    active: false,
+  },
+  {
+    name: "Git",
+    description:
+      "Git is a distributed version control system that tracks changes in code, enabling developers to collaborate, manage project history, and revert to previous versions when needed. It supports branching and merging, making it easy to experiment without affecting the main codebase. Paired with platforms like GitHub, Git streamlines team collaboration, code reviews, and deployment workflows.",
+    image: gitImg,
     active: false,
   },
   {

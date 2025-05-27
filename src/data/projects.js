@@ -1,3 +1,4 @@
+import expenseTrackerImg from "../assets/images/Projects/expense-tracker.png";
 import wikiScraperImg from "../assets/images/Projects/wikiscraper.png";
 // import reminderAppImg from "../assets/images/Projects/reminder-app.png";
 import reminderApp2Img from "../assets/images/Projects/reminder-app-2.png";
@@ -7,6 +8,11 @@ import ticTacToeImg from "../assets/images/Projects/tic-tac-toe.png";
 import reactEssentialsImg from "../assets/images/Projects/react-essentials.png";
 
 const projects = [
+  {
+    name: "Expense Tracker",
+    image: expenseTrackerImg,
+    link: "https://expense-tracker-kenshiin1123s-projects.vercel.app/",
+  },
   {
     name: "WikiScraper",
     image: wikiScraperImg,

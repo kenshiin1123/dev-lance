@@ -5,7 +5,7 @@ import reminderApp2Img from "../assets/images/Projects/reminder-app-2.png";
 import fileCryptImg from "../assets/images/Projects/filecrypt.png";
 import productStoreImg from "../assets/images/Projects/product-store-app.png";
 import ticTacToeImg from "../assets/images/Projects/tic-tac-toe.png";
-import reactEssentialsImg from "../assets/images/Projects/react-essentials.png";
+// import reactEssentialsImg from "../assets/images/Projects/react-essentials.png";
 
 const projects = [
   {
@@ -43,11 +43,11 @@ const projects = [
     image: ticTacToeImg,
     link: "https://tic-tac-toe-chi-bay.vercel.app",
   },
-  {
-    name: "React Essentials",
-    image: reactEssentialsImg,
-    link: "https://react-essentials-murex.vercel.app",
-  },
+  // {
+  //   name: "React Essentials",
+  //   image: reactEssentialsImg,
+  //   link: "https://react-essentials-murex.vercel.app",
+  // },
 ];
 
 export default projects;

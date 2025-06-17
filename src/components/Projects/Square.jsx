@@ -5,7 +5,7 @@ export default function Square({ name, image, link }) {
     <div className="size-80 bg-black p-5 flex flex-col justify-center items-center border border-white gap-3 min-sm:size-[40vw] min-md:size-[28vw]">
       <img
         onClick={() => {
-          window.open(link, "_blank", "noopener,noreferrer");
+          window.location.href = link;
         }}
         src={image}
         alt={`${name}-image`}
@@ -15,7 +15,6 @@ export default function Square({ name, image, link }) {
         className="text-xl text-white select-none hover:underline"
         style={{ fontFamily: "Kadwa" }}
         href={link}
-        target="_blank"
         rel="noopener noreferrer"
       >
         {name}

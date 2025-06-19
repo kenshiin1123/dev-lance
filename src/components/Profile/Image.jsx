@@ -1,4 +1,3 @@
-import React from "react";
 import profilePic from "../../assets/images/Profile/profile-image.jpg";
 import { motion } from "framer-motion";
 export default function Image() {

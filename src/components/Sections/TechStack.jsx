@@ -12,6 +12,8 @@ import Squares from "../../components/Tech Stack/Squares";
 
 import LayoutToggleButton from "../../components/Tech Stack/LayoutToggleButton";
 
+import InfoDisplay from "../InfoDisplay";
+
 export default function TechStack() {
   const [tech, setTech] = useState(techStack);
   const [isSquare, setIsSquare] = useState(true);
@@ -38,6 +40,7 @@ export default function TechStack() {
   return (
     <Section id={"tech-stack"}>
       <Header>Tech</Header>
+      <InfoDisplay>Click a logo to show its description.</InfoDisplay>
       <LayoutToggleButton isSquare={isSquare} toggleIsSquare={toggleIsSquare} />
       <Container>
         {isSquare ? (
